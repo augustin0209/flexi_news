@@ -1,0 +1,922 @@
+2025-06-13 11:37:18,092 - INFO - Structure de la base de donnÃ©es mise Ã  jour avec succÃ¨s
+2025-06-13 11:37:18,092 - INFO - Base de donnÃ©es initialisÃ©e
+2025-06-13 11:37:18,093 - WARNING - Fichier de configuration crÃ©Ã©: config.json. Veuillez le modifier avec vos paramÃ¨tres SMTP.
+2025-06-13 11:37:18,259 - INFO - Structure de la base de donnÃ©es mise Ã  jour avec succÃ¨s
+2025-06-13 11:37:18,260 - INFO - Base de donnÃ©es initialisÃ©e
+2025-06-13 11:37:18,260 - INFO - Configuration chargÃ©e: {'smtp_server': 'smtp.gmail.com', 'smtp_port': 587, 'email_sender': 'votre_email@gmail.com', 'email_password': '***masquÃ©***', 'sender_name': 'Votre Newsletter', 'provider': 'gmail'}
+2025-06-13 11:38:28,255 - ERROR - Internal Server Error: /newsletters/3/delete/
+Traceback (most recent call last):
+  File "C:\app_newsletter\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\app_newsletter\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\app_newsletter\venv\Lib\site-packages\django\contrib\auth\decorators.py", line 59, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+TypeError: newsletter_delete() got an unexpected keyword argument 'pk'
+2025-06-13 11:38:33,401 - ERROR - Internal Server Error: /newsletters/3/delete/
+Traceback (most recent call last):
+  File "C:\app_newsletter\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\app_newsletter\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\app_newsletter\venv\Lib\site-packages\django\contrib\auth\decorators.py", line 59, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+TypeError: newsletter_delete() got an unexpected keyword argument 'pk'
+2025-06-13 11:40:21,213 - INFO - C:\app_newsletter\newsletters\views.py changed, reloading.
+2025-06-13 11:40:21,219 - INFO - C:\app_newsletter\newsletters\views.py changed, reloading.
+2025-06-13 11:40:22,063 - INFO - Structure de la base de donnÃ©es mise Ã  jour avec succÃ¨s
+2025-06-13 11:40:22,064 - INFO - Base de donnÃ©es initialisÃ©e
+2025-06-13 11:40:22,064 - INFO - Configuration chargÃ©e: {'smtp_server': 'smtp.gmail.com', 'smtp_port': 587, 'email_sender': 'votre_email@gmail.com', 'email_password': '***masquÃ©***', 'sender_name': 'Votre Newsletter', 'provider': 'gmail'}
+2025-06-13 11:40:22,067 - INFO - Structure de la base de donnÃ©es mise Ã  jour avec succÃ¨s
+2025-06-13 11:40:22,067 - INFO - Base de donnÃ©es initialisÃ©e
+2025-06-13 11:40:22,068 - INFO - Configuration chargÃ©e: {'smtp_server': 'smtp.gmail.com', 'smtp_port': 587, 'email_sender': 'votre_email@gmail.com', 'email_password': '***masquÃ©***', 'sender_name': 'Votre Newsletter', 'provider': 'gmail'}
+2025-06-13 11:40:42,024 - INFO - MÃ©thode GET dÃ©tectÃ©e
+2025-06-13 11:40:50,399 - INFO - MÃ©thode POST dÃ©tectÃ©e
+2025-06-13 11:40:50,401 - INFO - Formulaire crÃ©Ã© avec les donnÃ©es: <QueryDict: {'csrfmiddlewaretoken': ['qcTRpHnSvRJBA65eDLG1k5ob8i9cvblGLbKI1ZcBw6fiAY1LgXhMlberbuD26atG'], 'titre': ['titre'], 'objet': ['cvxcv'], 'contenu_text': ['scsqdcsqdc'], 'police': ['Arial']}>
+2025-06-13 11:40:50,402 - INFO - Formulaire valide
+2025-06-13 11:40:50,411 - INFO - Newsletter crÃ©Ã© avec succÃ¨s: 4
+2025-06-13 11:40:57,674 - ERROR - Newsletter 4 non trouvÃ©e
+2025-06-13 11:41:00,691 - ERROR - Newsletter 4 non trouvÃ©e
+2025-06-13 11:41:01,473 - ERROR - Newsletter 4 non trouvÃ©e
+2025-06-13 11:42:17,314 - INFO - C:\app_newsletter\newsletters\views.py changed, reloading.
+2025-06-13 11:42:17,583 - INFO - C:\app_newsletter\newsletters\views.py changed, reloading.
+2025-06-13 11:42:18,157 - INFO - Structure de la base de donnÃ©es mise Ã  jour avec succÃ¨s
+2025-06-13 11:42:18,158 - INFO - Base de donnÃ©es initialisÃ©e
+2025-06-13 11:42:18,158 - INFO - Configuration chargÃ©e: {'smtp_server': 'smtp.gmail.com', 'smtp_port': 587, 'email_sender': 'votre_email@gmail.com', 'email_password': '***masquÃ©***', 'sender_name': 'Votre Newsletter', 'provider': 'gmail'}
+2025-06-13 11:42:18,358 - INFO - Structure de la base de donnÃ©es mise Ã  jour avec succÃ¨s
+2025-06-13 11:42:18,359 - INFO - Base de donnÃ©es initialisÃ©e
+2025-06-13 11:42:18,359 - INFO - Configuration chargÃ©e: {'smtp_server': 'smtp.gmail.com', 'smtp_port': 587, 'email_sender': 'votre_email@gmail.com', 'email_password': '***masquÃ©***', 'sender_name': 'Votre Newsletter', 'provider': 'gmail'}
+2025-06-13 11:42:50,883 - INFO - DÃ©but de l'envoi de la newsletter 4
+2025-06-13 11:42:50,884 - INFO - DÃ©but de l'envoi immÃ©diat
+2025-06-13 11:42:50,887 - INFO - Nombre d'abonnÃ©s actifs trouvÃ©s : 7
+2025-06-13 11:42:50,888 - INFO - Anciens envois supprimÃ©s
+2025-06-13 11:42:50,924 - INFO - Nouvelles entrÃ©es d'envoi crÃ©Ã©es
+2025-06-13 11:42:50,930 - INFO - Statut de la newsletter mis Ã  jour en 'en_cours'
+2025-06-13 11:42:50,930 - INFO - Tentative de connexion au serveur SMTP
+2025-06-13 11:42:51,287 - INFO - Connexion SMTP rÃ©ussie
+2025-06-13 11:42:51,288 - INFO - DÃ©but de l'envoi des emails
+2025-06-13 11:42:51,291 - INFO - Tentative d'envoi Ã  clara.morin94@testmail.com
+2025-06-13 11:42:51,970 - INFO - Email envoyÃ© avec succÃ¨s Ã  clara.morin94@testmail.com
+2025-06-13 11:42:51,971 - INFO - Tentative d'envoi Ã  leo.dubois13@demo.net
+2025-06-13 11:42:53,259 - INFO - Email envoyÃ© avec succÃ¨s Ã  leo.dubois13@demo.net
+2025-06-13 11:42:53,261 - INFO - Tentative d'envoi Ã  julie.martin88@exemple.org
+2025-06-13 11:42:54,589 - INFO - Email envoyÃ© avec succÃ¨s Ã  julie.martin88@exemple.org
+2025-06-13 11:42:54,590 - INFO - Tentative d'envoi Ã  camille.perrin66@nullmail.org
+2025-06-13 11:42:55,204 - INFO - Email envoyÃ© avec succÃ¨s Ã  camille.perrin66@nullmail.org
+2025-06-13 11:42:55,205 - INFO - Tentative d'envoi Ã  maxime.robert42@testnow.co
+2025-06-13 11:42:55,797 - INFO - Email envoyÃ© avec succÃ¨s Ã  maxime.robert42@testnow.co
+2025-06-13 11:42:55,800 - INFO - Tentative d'envoi Ã  alice.fontaine11@fakeinbox.org
+2025-06-13 11:42:57,231 - INFO - Email envoyÃ© avec succÃ¨s Ã  alice.fontaine11@fakeinbox.org
+2025-06-13 11:42:57,232 - INFO - Tentative d'envoi Ã  rulmystic@gmail.com
+2025-06-13 11:42:57,795 - INFO - Email envoyÃ© avec succÃ¨s Ã  rulmystic@gmail.com
+2025-06-13 11:42:57,796 - INFO - Fermeture de la connexion SMTP
+2025-06-13 11:42:57,814 - INFO - RÃ©sumÃ© de l'envoi : 7 envoyÃ©s, 0 erreurs
+2025-06-13 11:42:57,818 - INFO - Statut mis Ã  jour en 'envoyÃ©'
+2025-06-13 11:45:16,785 - INFO - MÃ©thode GET dÃ©tectÃ©e
+2025-06-13 11:45:25,098 - INFO - MÃ©thode POST dÃ©tectÃ©e
+2025-06-13 11:45:25,099 - INFO - Formulaire crÃ©Ã© avec les donnÃ©es: <QueryDict: {'csrfmiddlewaretoken': ['yWWrTf9Hwhbmg48LOki9C64WF7W4mgd4TVNivxYqxwH3gW4irwTUDcUcIjqUXfl4'], 'titre': ['titre'], 'objet': ['cvxcv'], 'contenu_text': ['xvwxvxvwsfvs'], 'police': ['Arial']}>
+2025-06-13 11:45:25,100 - INFO - Formulaire valide
+2025-06-13 11:45:25,108 - INFO - Newsletter crÃ©Ã© avec succÃ¨s: 5
+2025-06-13 11:45:27,978 - INFO - DÃ©but de l'envoi de la newsletter 5
+2025-06-13 11:45:27,978 - INFO - DÃ©but de l'envoi immÃ©diat
+2025-06-13 11:45:27,980 - INFO - Nombre d'abonnÃ©s actifs trouvÃ©s : 6
+2025-06-13 11:45:27,981 - INFO - Anciens envois supprimÃ©s
+2025-06-13 11:45:28,017 - INFO - Nouvelles entrÃ©es d'envoi crÃ©Ã©es
+2025-06-13 11:45:28,023 - INFO - Statut de la newsletter mis Ã  jour en 'en_cours'
+2025-06-13 11:45:28,024 - INFO - Tentative de connexion au serveur SMTP
+2025-06-13 11:45:28,331 - INFO - Connexion SMTP rÃ©ussie
+2025-06-13 11:45:28,332 - INFO - DÃ©but de l'envoi des emails
+2025-06-13 11:45:28,335 - INFO - Tentative d'envoi Ã  clara.morin94@testmail.com
+2025-06-13 11:45:29,009 - INFO - Email envoyÃ© avec succÃ¨s Ã  clara.morin94@testmail.com
+2025-06-13 11:45:29,010 - INFO - Tentative d'envoi Ã  leo.dubois13@demo.net
+2025-06-13 11:45:29,604 - INFO - Email envoyÃ© avec succÃ¨s Ã  leo.dubois13@demo.net
+2025-06-13 11:45:29,606 - INFO - Tentative d'envoi Ã  julie.martin88@exemple.org
+2025-06-13 11:45:30,210 - INFO - Email envoyÃ© avec succÃ¨s Ã  julie.martin88@exemple.org
+2025-06-13 11:45:30,211 - INFO - Tentative d'envoi Ã  camille.perrin66@nullmail.org
+2025-06-13 11:45:31,610 - INFO - Email envoyÃ© avec succÃ¨s Ã  camille.perrin66@nullmail.org
+2025-06-13 11:45:31,612 - INFO - Tentative d'envoi Ã  maxime.robert42@testnow.co
+2025-06-13 11:45:32,878 - INFO - Email envoyÃ© avec succÃ¨s Ã  maxime.robert42@testnow.co
+2025-06-13 11:45:32,880 - INFO - Tentative d'envoi Ã  rulmystic@gmail.com
+2025-06-13 11:45:33,426 - INFO - Email envoyÃ© avec succÃ¨s Ã  rulmystic@gmail.com
+2025-06-13 11:45:33,427 - INFO - Fermeture de la connexion SMTP
+2025-06-13 11:45:33,446 - INFO - RÃ©sumÃ© de l'envoi : 6 envoyÃ©s, 0 erreurs
+2025-06-13 11:45:33,447 - INFO - Statut mis Ã  jour en 'envoyÃ©'
+2025-06-13 11:47:55,737 - INFO - Fichier lu avec succÃ¨s en utilisant l'encodage: utf-8-sig
+2025-06-13 11:47:55,747 - INFO - AbonnÃ© importÃ©: clara.morin94@testmail.com
+2025-06-13 11:47:55,754 - INFO - AbonnÃ© importÃ©: leo.dubois13@demo.net
+2025-06-13 11:47:55,761 - INFO - AbonnÃ© importÃ©: julie.martin88@exemple.org
+2025-06-13 11:47:55,769 - INFO - AbonnÃ© importÃ©: thomas.lefevre77@mailninja.io
+2025-06-13 11:47:55,778 - INFO - AbonnÃ© importÃ©: camille.perrin66@nullmail.org
+2025-06-13 11:47:55,786 - INFO - AbonnÃ© importÃ©: maxime.robert42@testnow.co
+2025-06-13 11:47:55,795 - INFO - AbonnÃ© importÃ©: alice.fontaine11@fakeinbox.org
+2025-06-13 11:47:55,802 - INFO - AbonnÃ© importÃ©: hugo.bertrand22@maildrop.cc
+2025-06-13 11:47:55,809 - INFO - AbonnÃ© importÃ©: emma.lambert39@inboxzero.io
+2025-06-13 11:47:55,816 - INFO - AbonnÃ© importÃ©: nathan.renaud57@tempmail.dev
+2025-06-13 11:48:05,889 - INFO - MÃ©thode GET dÃ©tectÃ©e
+2025-06-13 11:48:11,366 - INFO - MÃ©thode POST dÃ©tectÃ©e
+2025-06-13 11:48:11,367 - INFO - Formulaire crÃ©Ã© avec les donnÃ©es: <QueryDict: {'csrfmiddlewaretoken': ['s6dGaVmCsE4g4S7fAc3SaMzkDXyRWtKhN54xMdbltTAX4K3MdoEDbSpAG92HxsSh'], 'titre': ['titre'], 'objet': ['dgqrg'], 'contenu_text': ['dsvsdvwdsvsdv'], 'police': ['Arial']}>
+2025-06-13 11:48:11,368 - INFO - Formulaire valide
+2025-06-13 11:48:11,377 - INFO - Newsletter crÃ©Ã© avec succÃ¨s: 6
+2025-06-13 11:48:12,916 - INFO - DÃ©but de l'envoi de la newsletter 6
+2025-06-13 11:48:12,917 - INFO - DÃ©but de l'envoi immÃ©diat
+2025-06-13 11:48:12,920 - INFO - Nombre d'abonnÃ©s actifs trouvÃ©s : 11
+2025-06-13 11:48:12,923 - INFO - Anciens envois supprimÃ©s
+2025-06-13 11:48:12,983 - INFO - Nouvelles entrÃ©es d'envoi crÃ©Ã©es
+2025-06-13 11:48:12,989 - INFO - Statut de la newsletter mis Ã  jour en 'en_cours'
+2025-06-13 11:48:12,990 - INFO - Tentative de connexion au serveur SMTP
+2025-06-13 11:48:13,319 - INFO - Connexion SMTP rÃ©ussie
+2025-06-13 11:48:13,320 - INFO - DÃ©but de l'envoi des emails
+2025-06-13 11:48:13,324 - INFO - Tentative d'envoi Ã  rulmystic@gmail.com
+2025-06-13 11:48:13,885 - INFO - Email envoyÃ© avec succÃ¨s Ã  rulmystic@gmail.com
+2025-06-13 11:48:13,887 - INFO - Tentative d'envoi Ã  clara.morin94@testmail.com
+2025-06-13 11:48:14,497 - INFO - Email envoyÃ© avec succÃ¨s Ã  clara.morin94@testmail.com
+2025-06-13 11:48:14,498 - INFO - Tentative d'envoi Ã  leo.dubois13@demo.net
+2025-06-13 11:48:15,051 - INFO - Email envoyÃ© avec succÃ¨s Ã  leo.dubois13@demo.net
+2025-06-13 11:48:15,053 - INFO - Tentative d'envoi Ã  julie.martin88@exemple.org
+2025-06-13 11:48:15,618 - INFO - Email envoyÃ© avec succÃ¨s Ã  julie.martin88@exemple.org
+2025-06-13 11:48:15,620 - INFO - Tentative d'envoi Ã  thomas.lefevre77@mailninja.io
+2025-06-13 11:48:16,271 - INFO - Email envoyÃ© avec succÃ¨s Ã  thomas.lefevre77@mailninja.io
+2025-06-13 11:48:16,273 - INFO - Tentative d'envoi Ã  camille.perrin66@nullmail.org
+2025-06-13 11:48:16,914 - INFO - Email envoyÃ© avec succÃ¨s Ã  camille.perrin66@nullmail.org
+2025-06-13 11:48:16,916 - INFO - Tentative d'envoi Ã  maxime.robert42@testnow.co
+2025-06-13 11:48:17,480 - INFO - Email envoyÃ© avec succÃ¨s Ã  maxime.robert42@testnow.co
+2025-06-13 11:48:17,481 - INFO - Tentative d'envoi Ã  alice.fontaine11@fakeinbox.org
+2025-06-13 11:48:18,155 - INFO - Email envoyÃ© avec succÃ¨s Ã  alice.fontaine11@fakeinbox.org
+2025-06-13 11:48:18,156 - INFO - Tentative d'envoi Ã  hugo.bertrand22@maildrop.cc
+2025-06-13 11:48:18,742 - INFO - Email envoyÃ© avec succÃ¨s Ã  hugo.bertrand22@maildrop.cc
+2025-06-13 11:48:18,744 - INFO - Tentative d'envoi Ã  emma.lambert39@inboxzero.io
+2025-06-13 11:48:19,316 - INFO - Email envoyÃ© avec succÃ¨s Ã  emma.lambert39@inboxzero.io
+2025-06-13 11:48:19,317 - INFO - Tentative d'envoi Ã  nathan.renaud57@tempmail.dev
+2025-06-13 11:48:19,901 - INFO - Email envoyÃ© avec succÃ¨s Ã  nathan.renaud57@tempmail.dev
+2025-06-13 11:48:19,902 - INFO - Fermeture de la connexion SMTP
+2025-06-13 11:48:19,918 - INFO - RÃ©sumÃ© de l'envoi : 11 envoyÃ©s, 0 erreurs
+2025-06-13 11:48:19,919 - INFO - Statut mis Ã  jour en 'envoyÃ©'
+2025-06-13 11:49:11,052 - INFO - MÃ©thode GET dÃ©tectÃ©e
+2025-06-13 11:49:37,456 - INFO - MÃ©thode POST dÃ©tectÃ©e
+2025-06-13 11:49:37,456 - INFO - Formulaire crÃ©Ã© avec les donnÃ©es: <QueryDict: {'csrfmiddlewaretoken': ['E9mfqlyop3SepiYKPVFK5o3FEB9BZk7DZ8d62Dn7qioVpaUhs7gv6uTVHNDrAjfD'], 'titre': ['titre'], 'objet': ['fdevfdsf'], 'contenu_text': ['fvSvdwcQScesfzqer zr ZEze:\r\n\r\n\r\naedefsevfd'], 'police': ['Arial']}>
+2025-06-13 11:49:37,457 - INFO - Formulaire valide
+2025-06-13 11:49:37,463 - INFO - Newsletter crÃ©Ã© avec succÃ¨s: 7
+2025-06-13 11:49:43,672 - INFO - DÃ©but de l'envoi de la newsletter 7
+2025-06-13 11:55:01,085 - INFO - C:\app_newsletter\newsletters\views.py changed, reloading.
+2025-06-13 11:55:01,114 - INFO - C:\app_newsletter\newsletters\views.py changed, reloading.
+2025-06-13 11:55:02,065 - INFO - Structure de la base de donnÃ©es mise Ã  jour avec succÃ¨s
+2025-06-13 11:55:02,065 - INFO - Base de donnÃ©es initialisÃ©e
+2025-06-13 11:55:02,065 - INFO - Configuration chargÃ©e: {'smtp_server': 'smtp.gmail.com', 'smtp_port': 587, 'email_sender': 'votre_email@gmail.com', 'email_password': '***masquÃ©***', 'sender_name': 'Votre Newsletter', 'provider': 'gmail'}
+2025-06-13 11:55:02,070 - INFO - Structure de la base de donnÃ©es mise Ã  jour avec succÃ¨s
+2025-06-13 11:55:02,070 - INFO - Base de donnÃ©es initialisÃ©e
+2025-06-13 11:55:02,071 - INFO - Configuration chargÃ©e: {'smtp_server': 'smtp.gmail.com', 'smtp_port': 587, 'email_sender': 'votre_email@gmail.com', 'email_password': '***masquÃ©***', 'sender_name': 'Votre Newsletter', 'provider': 'gmail'}
+2025-06-13 11:55:02,086 - INFO - Envoi de la newsletter planifiÃ©e 7
+2025-06-13 11:55:02,090 - INFO - Envoi de la newsletter planifiÃ©e 7
+2025-06-13 11:55:02,421 - ERROR - Erreur lors de l'envoi Ã  rulmystic@gmail.com: list index out of range
+2025-06-13 11:55:02,432 - ERROR - Erreur lors de l'envoi Ã  clara.morin94@testmail.com: list index out of range
+2025-06-13 11:55:02,436 - ERROR - Erreur lors de l'envoi Ã  leo.dubois13@demo.net: list index out of range
+2025-06-13 11:55:02,439 - ERROR - Erreur lors de l'envoi Ã  julie.martin88@exemple.org: list index out of range
+2025-06-13 11:55:02,444 - ERROR - Erreur lors de l'envoi Ã  thomas.lefevre77@mailninja.io: list index out of range
+2025-06-13 11:55:02,448 - ERROR - Erreur lors de l'envoi Ã  camille.perrin66@nullmail.org: list index out of range
+2025-06-13 11:55:02,452 - ERROR - Erreur lors de l'envoi Ã  maxime.robert42@testnow.co: list index out of range
+2025-06-13 11:55:02,455 - ERROR - Erreur lors de l'envoi Ã  alice.fontaine11@fakeinbox.org: list index out of range
+2025-06-13 11:55:02,459 - ERROR - Erreur lors de l'envoi Ã  hugo.bertrand22@maildrop.cc: list index out of range
+2025-06-13 11:55:02,462 - ERROR - Erreur lors de l'envoi Ã  emma.lambert39@inboxzero.io: list index out of range
+2025-06-13 11:55:02,466 - ERROR - Erreur lors de l'envoi Ã  nathan.renaud57@tempmail.dev: list index out of range
+2025-06-13 11:55:02,467 - ERROR - Erreur lors de l'envoi Ã  rulmystic@gmail.com: list index out of range
+2025-06-13 11:55:02,498 - ERROR - Erreur lors de l'envoi de la newsletter 7: UNIQUE constraint failed: newsletters_envoi.newsletter_id, newsletters_envoi.subscriber_id
+2025-06-13 11:55:02,517 - INFO - Newsletter 7 envoyÃ©e : 0 succÃ¨s, 11 erreurs
+2025-06-13 11:55:07,816 - INFO - DÃ©but de l'envoi de la newsletter 7
+2025-06-13 11:55:07,817 - INFO - DÃ©but de l'envoi immÃ©diat
+2025-06-13 11:55:07,818 - INFO - Nombre d'abonnÃ©s actifs trouvÃ©s : 11
+2025-06-13 11:55:07,826 - INFO - Anciens envois supprimÃ©s
+2025-06-13 11:55:07,870 - INFO - Nouvelles entrÃ©es d'envoi crÃ©Ã©es
+2025-06-13 11:55:07,874 - INFO - Statut de la newsletter mis Ã  jour en 'en_cours'
+2025-06-13 11:55:07,875 - INFO - Tentative de connexion au serveur SMTP
+2025-06-13 11:55:08,171 - INFO - Connexion SMTP rÃ©ussie
+2025-06-13 11:55:08,172 - INFO - DÃ©but de l'envoi des emails
+2025-06-13 11:55:08,175 - INFO - Tentative d'envoi Ã  rulmystic@gmail.com
+2025-06-13 11:55:08,785 - INFO - DÃ©but de l'envoi de la newsletter 7
+2025-06-13 11:55:08,786 - INFO - DÃ©but de l'envoi immÃ©diat
+2025-06-13 11:55:08,787 - INFO - Nombre d'abonnÃ©s actifs trouvÃ©s : 11
+2025-06-13 11:55:08,794 - INFO - Anciens envois supprimÃ©s
+2025-06-13 11:55:08,839 - INFO - Nouvelles entrÃ©es d'envoi crÃ©Ã©es
+2025-06-13 11:55:08,841 - INFO - Statut de la newsletter mis Ã  jour en 'en_cours'
+2025-06-13 11:55:08,841 - INFO - Tentative de connexion au serveur SMTP
+2025-06-13 11:55:09,017 - ERROR - Erreur gÃ©nÃ©rale lors de l'envoi : UNIQUE constraint failed: newsletters_envoi.newsletter_id, newsletters_envoi.subscriber_id
+2025-06-13 11:55:09,125 - INFO - Connexion SMTP rÃ©ussie
+2025-06-13 11:55:09,126 - INFO - DÃ©but de l'envoi des emails
+2025-06-13 11:55:09,128 - INFO - Tentative d'envoi Ã  rulmystic@gmail.com
+2025-06-13 11:55:09,490 - INFO - DÃ©but de l'envoi de la newsletter 7
+2025-06-13 11:55:09,491 - INFO - DÃ©but de l'envoi immÃ©diat
+2025-06-13 11:55:09,492 - INFO - Nombre d'abonnÃ©s actifs trouvÃ©s : 11
+2025-06-13 11:55:09,501 - INFO - Anciens envois supprimÃ©s
+2025-06-13 11:55:09,556 - INFO - Nouvelles entrÃ©es d'envoi crÃ©Ã©es
+2025-06-13 11:55:09,562 - INFO - Statut de la newsletter mis Ã  jour en 'en_cours'
+2025-06-13 11:55:09,563 - INFO - Tentative de connexion au serveur SMTP
+2025-06-13 11:55:09,674 - INFO - Connexion SMTP rÃ©ussie
+2025-06-13 11:55:09,675 - INFO - DÃ©but de l'envoi des emails
+2025-06-13 11:55:09,676 - INFO - Tentative d'envoi Ã  rulmystic@gmail.com
+2025-06-13 11:55:09,861 - INFO - Connexion SMTP rÃ©ussie
+2025-06-13 11:55:09,862 - INFO - DÃ©but de l'envoi des emails
+2025-06-13 11:55:09,864 - INFO - Tentative d'envoi Ã  rulmystic@gmail.com
+2025-06-13 11:55:10,533 - INFO - Email envoyÃ© avec succÃ¨s Ã  rulmystic@gmail.com
+2025-06-13 11:55:10,534 - INFO - Tentative d'envoi Ã  clara.morin94@testmail.com
+2025-06-13 11:55:10,869 - INFO - Email envoyÃ© avec succÃ¨s Ã  rulmystic@gmail.com
+2025-06-13 11:55:10,870 - INFO - Tentative d'envoi Ã  clara.morin94@testmail.com
+2025-06-13 11:55:11,254 - INFO - Email envoyÃ© avec succÃ¨s Ã  clara.morin94@testmail.com
+2025-06-13 11:55:11,256 - INFO - Tentative d'envoi Ã  leo.dubois13@demo.net
+2025-06-13 11:55:11,519 - INFO - Email envoyÃ© avec succÃ¨s Ã  clara.morin94@testmail.com
+2025-06-13 11:55:11,521 - INFO - Tentative d'envoi Ã  leo.dubois13@demo.net
+2025-06-13 11:55:11,990 - INFO - Email envoyÃ© avec succÃ¨s Ã  leo.dubois13@demo.net
+2025-06-13 11:55:11,991 - INFO - Tentative d'envoi Ã  julie.martin88@exemple.org
+2025-06-13 11:55:12,304 - INFO - Email envoyÃ© avec succÃ¨s Ã  leo.dubois13@demo.net
+2025-06-13 11:55:12,306 - INFO - Tentative d'envoi Ã  julie.martin88@exemple.org
+2025-06-13 11:55:12,722 - INFO - Email envoyÃ© avec succÃ¨s Ã  julie.martin88@exemple.org
+2025-06-13 11:55:12,726 - INFO - Tentative d'envoi Ã  thomas.lefevre77@mailninja.io
+2025-06-13 11:55:13,059 - INFO - Email envoyÃ© avec succÃ¨s Ã  julie.martin88@exemple.org
+2025-06-13 11:55:13,061 - INFO - Tentative d'envoi Ã  thomas.lefevre77@mailninja.io
+2025-06-13 11:55:13,659 - INFO - Email envoyÃ© avec succÃ¨s Ã  thomas.lefevre77@mailninja.io
+2025-06-13 11:55:13,660 - INFO - Tentative d'envoi Ã  camille.perrin66@nullmail.org
+2025-06-13 11:55:14,162 - INFO - Email envoyÃ© avec succÃ¨s Ã  thomas.lefevre77@mailninja.io
+2025-06-13 11:55:14,163 - INFO - Tentative d'envoi Ã  camille.perrin66@nullmail.org
+2025-06-13 11:55:14,293 - INFO - Email envoyÃ© avec succÃ¨s Ã  camille.perrin66@nullmail.org
+2025-06-13 11:55:14,294 - INFO - Tentative d'envoi Ã  maxime.robert42@testnow.co
+2025-06-13 11:55:14,979 - INFO - Email envoyÃ© avec succÃ¨s Ã  camille.perrin66@nullmail.org
+2025-06-13 11:55:14,980 - INFO - Tentative d'envoi Ã  maxime.robert42@testnow.co
+2025-06-13 11:55:15,229 - INFO - Email envoyÃ© avec succÃ¨s Ã  maxime.robert42@testnow.co
+2025-06-13 11:55:15,230 - INFO - Tentative d'envoi Ã  alice.fontaine11@fakeinbox.org
+2025-06-13 11:55:15,628 - INFO - Email envoyÃ© avec succÃ¨s Ã  maxime.robert42@testnow.co
+2025-06-13 11:55:15,629 - INFO - Tentative d'envoi Ã  alice.fontaine11@fakeinbox.org
+2025-06-13 11:55:15,884 - INFO - Email envoyÃ© avec succÃ¨s Ã  alice.fontaine11@fakeinbox.org
+2025-06-13 11:55:15,885 - INFO - Tentative d'envoi Ã  hugo.bertrand22@maildrop.cc
+2025-06-13 11:55:16,177 - INFO - Email envoyÃ© avec succÃ¨s Ã  alice.fontaine11@fakeinbox.org
+2025-06-13 11:55:16,178 - INFO - Tentative d'envoi Ã  hugo.bertrand22@maildrop.cc
+2025-06-13 11:55:16,680 - INFO - Email envoyÃ© avec succÃ¨s Ã  hugo.bertrand22@maildrop.cc
+2025-06-13 11:55:16,681 - INFO - Tentative d'envoi Ã  emma.lambert39@inboxzero.io
+2025-06-13 11:55:17,261 - INFO - Email envoyÃ© avec succÃ¨s Ã  emma.lambert39@inboxzero.io
+2025-06-13 11:55:17,262 - INFO - Tentative d'envoi Ã  nathan.renaud57@tempmail.dev
+2025-06-13 11:55:17,656 - INFO - Email envoyÃ© avec succÃ¨s Ã  hugo.bertrand22@maildrop.cc
+2025-06-13 11:55:17,658 - INFO - Tentative d'envoi Ã  emma.lambert39@inboxzero.io
+2025-06-13 11:55:18,081 - INFO - Email envoyÃ© avec succÃ¨s Ã  nathan.renaud57@tempmail.dev
+2025-06-13 11:55:18,082 - INFO - Fermeture de la connexion SMTP
+2025-06-13 11:55:18,098 - INFO - RÃ©sumÃ© de l'envoi : 11 envoyÃ©s, 0 erreurs
+2025-06-13 11:55:18,098 - INFO - Statut mis Ã  jour en 'envoyÃ©'
+2025-06-13 11:55:18,947 - INFO - Email envoyÃ© avec succÃ¨s Ã  emma.lambert39@inboxzero.io
+2025-06-13 11:55:18,949 - INFO - Tentative d'envoi Ã  nathan.renaud57@tempmail.dev
+2025-06-13 11:55:19,574 - INFO - Email envoyÃ© avec succÃ¨s Ã  nathan.renaud57@tempmail.dev
+2025-06-13 11:55:19,575 - INFO - Fermeture de la connexion SMTP
+2025-06-13 11:55:19,591 - INFO - RÃ©sumÃ© de l'envoi : 11 envoyÃ©s, 0 erreurs
+2025-06-13 11:55:19,591 - INFO - Statut mis Ã  jour en 'envoyÃ©'
+2025-06-13 11:56:53,329 - INFO - MÃ©thode GET dÃ©tectÃ©e
+2025-06-13 11:57:04,928 - INFO - MÃ©thode POST dÃ©tectÃ©e
+2025-06-13 11:57:04,929 - INFO - Formulaire crÃ©Ã© avec les donnÃ©es: <QueryDict: {'csrfmiddlewaretoken': ['xueagIA3VN6uCtSTJeAzVTN8qRzfaGzqSt51S0pMW2CbClOqmqbkWZDot335LFHq'], 'titre': ['vvdsvs'], 'objet': ['dgqrg'], 'contenu_text': ['hsvwdvcDfsqzrfqer'], 'police': ['Arial']}>
+2025-06-13 11:57:04,931 - INFO - Formulaire valide
+2025-06-13 11:57:04,942 - INFO - Newsletter crÃ©Ã© avec succÃ¨s: 8
+2025-06-13 11:57:10,627 - INFO - DÃ©but de l'envoi de la newsletter 8
+2025-06-13 11:59:02,526 - INFO - Envoi de la newsletter planifiÃ©e 8
+2025-06-13 11:59:02,547 - INFO - Envoi de la newsletter planifiÃ©e 8
+2025-06-13 11:59:02,858 - ERROR - Erreur lors de l'envoi Ã  rulmystic@gmail.com: list index out of range
+2025-06-13 11:59:02,863 - ERROR - Erreur lors de l'envoi Ã  rulmystic@gmail.com: list index out of range
+2025-06-13 11:59:02,876 - ERROR - Erreur lors de l'envoi Ã  clara.morin94@testmail.com: list index out of range
+2025-06-13 11:59:02,877 - ERROR - Erreur lors de l'envoi de la newsletter 8: UNIQUE constraint failed: newsletters_envoi.newsletter_id, newsletters_envoi.subscriber_id
+2025-06-13 11:59:02,889 - ERROR - Erreur lors de l'envoi Ã  leo.dubois13@demo.net: list index out of range
+2025-06-13 11:59:02,914 - ERROR - Erreur lors de l'envoi Ã  julie.martin88@exemple.org: list index out of range
+2025-06-13 11:59:02,923 - ERROR - Erreur lors de l'envoi Ã  thomas.lefevre77@mailninja.io: list index out of range
+2025-06-13 11:59:02,960 - ERROR - Erreur lors de l'envoi Ã  camille.perrin66@nullmail.org: list index out of range
+2025-06-13 11:59:02,966 - ERROR - Erreur lors de l'envoi Ã  maxime.robert42@testnow.co: list index out of range
+2025-06-13 11:59:02,975 - ERROR - Erreur lors de l'envoi Ã  alice.fontaine11@fakeinbox.org: list index out of range
+2025-06-13 11:59:02,986 - ERROR - Erreur lors de l'envoi Ã  hugo.bertrand22@maildrop.cc: list index out of range
+2025-06-13 11:59:02,993 - ERROR - Erreur lors de l'envoi Ã  emma.lambert39@inboxzero.io: list index out of range
+2025-06-13 11:59:03,000 - ERROR - Erreur lors de l'envoi Ã  nathan.renaud57@tempmail.dev: list index out of range
+2025-06-13 11:59:03,031 - INFO - Newsletter 8 envoyÃ©e : 0 succÃ¨s, 11 erreurs
+2025-06-13 12:01:09,909 - INFO - C:\app_newsletter\newsletters\views.py changed, reloading.
+2025-06-13 12:01:10,447 - INFO - C:\app_newsletter\newsletters\views.py changed, reloading.
+2025-06-13 12:01:10,768 - INFO - Structure de la base de donnÃ©es mise Ã  jour avec succÃ¨s
+2025-06-13 12:01:10,769 - INFO - Base de donnÃ©es initialisÃ©e
+2025-06-13 12:01:10,769 - INFO - Configuration chargÃ©e: {'smtp_server': 'smtp.gmail.com', 'smtp_port': 587, 'email_sender': 'votre_email@gmail.com', 'email_password': '***masquÃ©***', 'sender_name': 'Votre Newsletter', 'provider': 'gmail'}
+2025-06-13 12:01:11,211 - INFO - Structure de la base de donnÃ©es mise Ã  jour avec succÃ¨s
+2025-06-13 12:01:11,211 - INFO - Base de donnÃ©es initialisÃ©e
+2025-06-13 12:01:11,212 - INFO - Configuration chargÃ©e: {'smtp_server': 'smtp.gmail.com', 'smtp_port': 587, 'email_sender': 'votre_email@gmail.com', 'email_password': '***masquÃ©***', 'sender_name': 'Votre Newsletter', 'provider': 'gmail'}
+2025-06-13 12:01:39,421 - INFO - MÃ©thode GET dÃ©tectÃ©e
+2025-06-13 12:01:47,081 - INFO - MÃ©thode POST dÃ©tectÃ©e
+2025-06-13 12:01:47,083 - INFO - Formulaire crÃ©Ã© avec les donnÃ©es: <QueryDict: {'csrfmiddlewaretoken': ['5Wh0IOplJor9X8FlVSFcrBK703dHLV4kqV8Rk6e4KDXQX0BSy4gXsHAn3fHxmUck'], 'titre': ['vvdsvs'], 'objet': ['dgqrg'], 'contenu_text': ['evSdvfv'], 'police': ['Arial']}>
+2025-06-13 12:01:47,084 - INFO - Formulaire valide
+2025-06-13 12:01:47,093 - INFO - Newsletter crÃ©Ã© avec succÃ¨s: 9
+2025-06-13 12:01:52,056 - INFO - DÃ©but de l'envoi de la newsletter 9
+2025-06-13 12:02:10,775 - INFO - Envoi de la newsletter planifiÃ©e 9
+2025-06-13 12:02:11,103 - INFO - Connexion SMTP rÃ©ussie
+2025-06-13 12:02:11,106 - ERROR - Erreur lors de l'envoi Ã  rulmystic@gmail.com: list index out of range
+2025-06-13 12:02:11,116 - ERROR - Erreur lors de l'envoi Ã  clara.morin94@testmail.com: list index out of range
+2025-06-13 12:02:11,120 - ERROR - Erreur lors de l'envoi Ã  leo.dubois13@demo.net: list index out of range
+2025-06-13 12:02:11,125 - ERROR - Erreur lors de l'envoi Ã  julie.martin88@exemple.org: list index out of range
+2025-06-13 12:02:11,130 - ERROR - Erreur lors de l'envoi Ã  thomas.lefevre77@mailninja.io: list index out of range
+2025-06-13 12:02:11,135 - ERROR - Erreur lors de l'envoi Ã  camille.perrin66@nullmail.org: list index out of range
+2025-06-13 12:02:11,139 - ERROR - Erreur lors de l'envoi Ã  maxime.robert42@testnow.co: list index out of range
+2025-06-13 12:02:11,145 - ERROR - Erreur lors de l'envoi Ã  alice.fontaine11@fakeinbox.org: list index out of range
+2025-06-13 12:02:11,151 - ERROR - Erreur lors de l'envoi Ã  hugo.bertrand22@maildrop.cc: list index out of range
+2025-06-13 12:02:11,157 - ERROR - Erreur lors de l'envoi Ã  emma.lambert39@inboxzero.io: list index out of range
+2025-06-13 12:02:11,162 - ERROR - Erreur lors de l'envoi Ã  nathan.renaud57@tempmail.dev: list index out of range
+2025-06-13 12:02:11,187 - INFO - Newsletter 9 envoyÃ©e : 0 succÃ¨s, 11 erreurs
+2025-06-13 12:05:25,541 - INFO - C:\app_newsletter\newsletters\views.py changed, reloading.
+2025-06-13 12:05:25,874 - INFO - C:\app_newsletter\newsletters\views.py changed, reloading.
+2025-06-13 12:05:26,457 - INFO - Structure de la base de donnÃ©es mise Ã  jour avec succÃ¨s
+2025-06-13 12:05:26,457 - INFO - Base de donnÃ©es initialisÃ©e
+2025-06-13 12:05:26,458 - INFO - Configuration chargÃ©e: {'smtp_server': 'smtp.gmail.com', 'smtp_port': 587, 'email_sender': 'votre_email@gmail.com', 'email_password': '***masquÃ©***', 'sender_name': 'Votre Newsletter', 'provider': 'gmail'}
+2025-06-13 12:05:26,783 - INFO - Structure de la base de donnÃ©es mise Ã  jour avec succÃ¨s
+2025-06-13 12:05:26,783 - INFO - Base de donnÃ©es initialisÃ©e
+2025-06-13 12:05:26,784 - INFO - Configuration chargÃ©e: {'smtp_server': 'smtp.gmail.com', 'smtp_port': 587, 'email_sender': 'votre_email@gmail.com', 'email_password': '***masquÃ©***', 'sender_name': 'Votre Newsletter', 'provider': 'gmail'}
+2025-06-13 12:06:05,542 - INFO - Structure de la base de donnÃ©es mise Ã  jour avec succÃ¨s
+2025-06-13 12:06:05,542 - INFO - Base de donnÃ©es initialisÃ©e
+2025-06-13 12:06:05,543 - INFO - Configuration chargÃ©e: {'smtp_server': 'smtp.gmail.com', 'smtp_port': 587, 'email_sender': 'votre_email@gmail.com', 'email_password': '***masquÃ©***', 'sender_name': 'Votre Newsletter', 'provider': 'gmail'}
+2025-06-13 12:06:14,906 - INFO - MÃ©thode GET dÃ©tectÃ©e
+2025-06-13 12:06:20,573 - INFO - MÃ©thode POST dÃ©tectÃ©e
+2025-06-13 12:06:20,574 - INFO - Formulaire crÃ©Ã© avec les donnÃ©es: <QueryDict: {'csrfmiddlewaretoken': ['sTOtGhu8Jicq2Vz9swnLakk0WWQ7ccjrNSFkizjRKxI72NvG5IYwbqagZ8kXNbrr'], 'titre': ['vvdsvs'], 'objet': ['dgqrg'], 'contenu_text': ['evSdvfv'], 'police': ['Arial']}>
+2025-06-13 12:06:20,575 - INFO - Formulaire valide
+2025-06-13 12:06:20,582 - INFO - Newsletter crÃ©Ã© avec succÃ¨s: 10
+2025-06-13 12:06:25,533 - INFO - DÃ©but de l'envoi de la newsletter 10
+2025-06-13 12:06:26,465 - INFO - Envoi de la newsletter planifiÃ©e 10
+2025-06-13 12:06:26,799 - INFO - Connexion SMTP rÃ©ussie
+2025-06-13 12:06:27,455 - INFO - Email envoyÃ© avec succÃ¨s Ã  rulmystic@gmail.com
+2025-06-13 12:06:28,023 - INFO - Email envoyÃ© avec succÃ¨s Ã  clara.morin94@testmail.com
+2025-06-13 11:40:22,063 - INFO - Structure de la base de donnï¿½es mise ï¿½ jour avec succï¿½s
+2025-06-13 11:40:22,064 - INFO - Base de donnï¿½es initialisï¿½e
+2025-06-13 11:40:22,064 - INFO - Configuration chargï¿½e: {'smtp_server': 'smtp.gmail.com', 'smtp_port': 587, 'email_sender': 'votre_email@gmail.com', 'email_password': '***masquï¿½***', 'sender_name': 'Votre Newsletter', 'provider': 'gmail'}
+2025-06-13 11:40:22,067 - INFO - Structure de la base de donnï¿½es mise ï¿½ jour avec succï¿½s
+2025-06-13 11:40:22,067 - INFO - Base de donnï¿½es initialisï¿½e
+2025-06-13 11:40:22,068 - INFO - Configuration chargï¿½e: {'smtp_server': 'smtp.gmail.com', 'smtp_port': 587, 'email_sender': 'votre_email@gmail.com', 'email_password': '***masquï¿½***', 'sender_name': 'Votre Newsletter', 'provider': 'gmail'}
+2025-06-13 11:40:42,024 - INFO - Mï¿½thode GET dï¿½tectï¿½e
+2025-06-13 11:40:50,399 - INFO - Mï¿½thode POST dï¿½tectï¿½e
+2025-06-13 11:40:50,401 - INFO - Formulaire crï¿½ï¿½ avec les donnï¿½es: <QueryDict: {'csrfmiddlewaretoken': ['qcTRpHnSvRJBA65eDLG1k5ob8i9cvblGLbKI1ZcBw6fiAY1LgXhMlberbuD26atG'], 'titre': ['titre'], 'objet': ['cvxcv'], 'contenu_text': ['scsqdcsqdc'], 'police': ['Arial']}>
+2025-06-13 11:40:50,402 - INFO - Formulaire valide
+2025-06-13 11:40:50,411 - INFO - Newsletter crï¿½ï¿½e avec succï¿½s: 4
+2025-06-13 11:40:57,674 - ERROR - Newsletter 4 non trouvï¿½e
+2025-06-13 11:41:00,691 - ERROR - Newsletter 4 non trouvï¿½e
+2025-06-13 11:41:01,473 - ERROR - Newsletter 4 non trouvï¿½e
+2025-06-13 11:42:17,314 - INFO - C:\app_newsletter\newsletters\views.py changed, reloading.
+2025-06-13 11:42:17,583 - INFO - C:\app_newsletter\newsletters\views.py changed, reloading.
+2025-06-13 11:42:18,157 - INFO - Structure de la base de donnï¿½es mise ï¿½ jour avec succï¿½s
+2025-06-13 11:42:18,158 - INFO - Base de donnï¿½es initialisï¿½e
+2025-06-13 11:42:18,158 - INFO - Configuration chargï¿½e: {'smtp_server': 'smtp.gmail.com', 'smtp_port': 587, 'email_sender': 'votre_email@gmail.com', 'email_password': '***masquï¿½***', 'sender_name': 'Votre Newsletter', 'provider': 'gmail'}
+2025-06-13 11:42:18,358 - INFO - Structure de la base de donnï¿½es mise ï¿½ jour avec succï¿½s
+2025-06-13 11:42:18,359 - INFO - Base de donnï¿½es initialisï¿½e
+2025-06-13 11:42:18,359 - INFO - Configuration chargï¿½e: {'smtp_server': 'smtp.gmail.com', 'smtp_port': 587, 'email_sender': 'votre_email@gmail.com', 'email_password': '***masquï¿½***', 'sender_name': 'Votre Newsletter', 'provider': 'gmail'}
+2025-06-13 11:42:50,883 - INFO - Dï¿½but de l'envoi de la newsletter 4
+2025-06-13 11:42:50,884 - INFO - Dï¿½but de l'envoi immï¿½diat
+2025-06-13 11:42:50,887 - INFO - Nombre d'abonnï¿½s actifs trouvï¿½s : 7
+2025-06-13 11:42:50,888 - INFO - Anciens envois supprimï¿½s
+2025-06-13 11:42:50,924 - INFO - Nouvelles entrï¿½es d'envoi crï¿½ï¿½es
+2025-06-13 11:42:50,930 - INFO - Statut de la newsletter mis ï¿½ jour en 'en_cours'
+2025-06-13 11:42:50,930 - INFO - Tentative de connexion au serveur SMTP
+2025-06-13 11:42:51,287 - INFO - Connexion SMTP rï¿½ussie
+2025-06-13 11:42:51,288 - INFO - Dï¿½but de l'envoi des emails
+2025-06-13 11:42:51,291 - INFO - Tentative d'envoi ï¿½ clara.morin94@testmail.com
+2025-06-13 11:42:51,970 - INFO - Email envoyï¿½ avec succï¿½s ï¿½ clara.morin94@testmail.com
+2025-06-13 11:42:51,971 - INFO - Tentative d'envoi ï¿½ leo.dubois13@demo.net
+2025-06-13 11:42:53,259 - INFO - Email envoyï¿½ avec succï¿½s ï¿½ leo.dubois13@demo.net
+2025-06-13 11:42:53,261 - INFO - Tentative d'envoi ï¿½ julie.martin88@exemple.org
+2025-06-13 11:42:54,589 - INFO - Email envoyï¿½ avec succï¿½s ï¿½ julie.martin88@exemple.org
+2025-06-13 11:42:54,590 - INFO - Tentative d'envoi ï¿½ camille.perrin66@nullmail.org
+2025-06-13 11:42:55,204 - INFO - Email envoyï¿½ avec succï¿½s ï¿½ camille.perrin66@nullmail.org
+2025-06-13 11:42:55,205 - INFO - Tentative d'envoi ï¿½ maxime.robert42@testnow.co
+2025-06-13 11:42:55,797 - INFO - Email envoyï¿½ avec succï¿½s ï¿½ maxime.robert42@testnow.co
+2025-06-13 11:42:55,800 - INFO - Tentative d'envoi ï¿½ alice.fontaine11@fakeinbox.org
+2025-06-13 11:42:57,231 - INFO - Email envoyï¿½ avec succï¿½s ï¿½ alice.fontaine11@fakeinbox.org
+2025-06-13 11:42:57,232 - INFO - Tentative d'envoi ï¿½ rulmystic@gmail.com
+2025-06-13 11:42:57,795 - INFO - Email envoyï¿½ avec succï¿½s ï¿½ rulmystic@gmail.com
+2025-06-13 11:42:57,796 - INFO - Fermeture de la connexion SMTP
+2025-06-13 11:42:57,814 - INFO - Rï¿½sumï¿½ de l'envoi : 7 envoyï¿½s, 0 erreurs
+2025-06-13 11:42:57,818 - INFO - Statut mis ï¿½ jour en 'envoye'
+2025-06-13 11:45:16,785 - INFO - Mï¿½thode GET dï¿½tectï¿½e
+2025-06-13 11:45:25,098 - INFO - Mï¿½thode POST dï¿½tectï¿½e
+2025-06-13 11:45:25,099 - INFO - Formulaire crï¿½ï¿½ avec les donnï¿½es: <QueryDict: {'csrfmiddlewaretoken': ['yWWrTf9Hwhbmg48LOki9C64WF7W4mgd4TVNivxYqxwH3gW4irwTUDcUcIjqUXfl4'], 'titre': ['titre'], 'objet': ['cvxcv'], 'contenu_text': ['xvwxvxvwsfvs'], 'police': ['Arial']}>
+2025-06-13 11:45:25,100 - INFO - Formulaire valide
+2025-06-13 11:45:25,108 - INFO - Newsletter crï¿½ï¿½e avec succï¿½s: 5
+2025-06-13 11:45:27,978 - INFO - Dï¿½but de l'envoi de la newsletter 5
+2025-06-13 11:45:27,978 - INFO - Dï¿½but de l'envoi immï¿½diat
+2025-06-13 11:45:27,980 - INFO - Nombre d'abonnï¿½s actifs trouvï¿½s : 6
+2025-06-13 11:45:27,981 - INFO - Anciens envois supprimï¿½s
+2025-06-13 11:45:28,017 - INFO - Nouvelles entrï¿½es d'envoi crï¿½ï¿½es
+2025-06-13 11:45:28,023 - INFO - Statut de la newsletter mis ï¿½ jour en 'en_cours'
+2025-06-13 11:45:28,024 - INFO - Tentative de connexion au serveur SMTP
+2025-06-13 11:45:28,331 - INFO - Connexion SMTP rï¿½ussie
+2025-06-13 11:45:28,332 - INFO - Dï¿½but de l'envoi des emails
+2025-06-13 11:45:28,335 - INFO - Tentative d'envoi ï¿½ clara.morin94@testmail.com
+2025-06-13 11:45:29,009 - INFO - Email envoyï¿½ avec succï¿½s ï¿½ clara.morin94@testmail.com
+2025-06-13 11:45:29,010 - INFO - Tentative d'envoi ï¿½ leo.dubois13@demo.net
+2025-06-13 11:45:29,604 - INFO - Email envoyï¿½ avec succï¿½s ï¿½ leo.dubois13@demo.net
+2025-06-13 11:45:29,606 - INFO - Tentative d'envoi ï¿½ julie.martin88@exemple.org
+2025-06-13 11:45:30,210 - INFO - Email envoyï¿½ avec succï¿½s ï¿½ julie.martin88@exemple.org
+2025-06-13 11:45:30,211 - INFO - Tentative d'envoi ï¿½ camille.perrin66@nullmail.org
+2025-06-13 11:45:31,610 - INFO - Email envoyï¿½ avec succï¿½s ï¿½ camille.perrin66@nullmail.org
+2025-06-13 11:45:31,612 - INFO - Tentative d'envoi ï¿½ maxime.robert42@testnow.co
+2025-06-13 11:45:32,878 - INFO - Email envoyï¿½ avec succï¿½s ï¿½ maxime.robert42@testnow.co
+2025-06-13 11:45:32,880 - INFO - Tentative d'envoi ï¿½ rulmystic@gmail.com
+2025-06-13 11:45:33,426 - INFO - Email envoyï¿½ avec succï¿½s ï¿½ rulmystic@gmail.com
+2025-06-13 11:45:33,427 - INFO - Fermeture de la connexion SMTP
+2025-06-13 11:45:33,446 - INFO - Rï¿½sumï¿½ de l'envoi : 6 envoyï¿½s, 0 erreurs
+2025-06-13 11:45:33,447 - INFO - Statut mis ï¿½ jour en 'envoye'
+2025-06-13 11:47:55,737 - INFO - Fichier lu avec succï¿½s en utilisant l'encodage: utf-8-sig
+2025-06-13 11:47:55,747 - INFO - Abonnï¿½ importï¿½: clara.morin94@testmail.com
+2025-06-13 11:47:55,754 - INFO - Abonnï¿½ importï¿½: leo.dubois13@demo.net
+2025-06-13 11:47:55,761 - INFO - Abonnï¿½ importï¿½: julie.martin88@exemple.org
+2025-06-13 11:47:55,769 - INFO - Abonnï¿½ importï¿½: thomas.lefevre77@mailninja.io
+2025-06-13 11:47:55,778 - INFO - Abonnï¿½ importï¿½: camille.perrin66@nullmail.org
+2025-06-13 11:47:55,786 - INFO - Abonnï¿½ importï¿½: maxime.robert42@testnow.co
+2025-06-13 11:47:55,795 - INFO - Abonnï¿½ importï¿½: alice.fontaine11@fakeinbox.org
+2025-06-13 11:47:55,802 - INFO - Abonnï¿½ importï¿½: hugo.bertrand22@maildrop.cc
+2025-06-13 11:47:55,809 - INFO - Abonnï¿½ importï¿½: emma.lambert39@inboxzero.io
+2025-06-13 11:47:55,816 - INFO - Abonnï¿½ importï¿½: nathan.renaud57@tempmail.dev
+2025-06-13 11:48:05,889 - INFO - Mï¿½thode GET dï¿½tectï¿½e
+2025-06-13 11:48:11,366 - INFO - Mï¿½thode POST dï¿½tectï¿½e
+2025-06-13 11:48:11,367 - INFO - Formulaire crï¿½ï¿½ avec les donnï¿½es: <QueryDict: {'csrfmiddlewaretoken': ['s6dGaVmCsE4g4S7fAc3SaMzkDXyRWtKhN54xMdbltTAX4K3MdoEDbSpAG92HxsSh'], 'titre': ['titre'], 'objet': ['dgqrg'], 'contenu_text': ['dsvsdvwdsvsdv'], 'police': ['Arial']}>
+2025-06-13 11:48:11,368 - INFO - Formulaire valide
+2025-06-13 11:48:11,377 - INFO - Newsletter crï¿½ï¿½e avec succï¿½s: 6
+2025-06-13 11:48:12,916 - INFO - Dï¿½but de l'envoi de la newsletter 6
+2025-06-13 11:48:12,917 - INFO - Dï¿½but de l'envoi immï¿½diat
+2025-06-13 11:48:12,920 - INFO - Nombre d'abonnï¿½s actifs trouvï¿½s : 11
+2025-06-13 11:48:12,923 - INFO - Anciens envois supprimï¿½s
+2025-06-13 11:48:12,983 - INFO - Nouvelles entrï¿½es d'envoi crï¿½ï¿½es
+2025-06-13 11:48:12,989 - INFO - Statut de la newsletter mis ï¿½ jour en 'en_cours'
+2025-06-13 11:48:12,990 - INFO - Tentative de connexion au serveur SMTP
+2025-06-13 11:48:13,319 - INFO - Connexion SMTP rï¿½ussie
+2025-06-13 11:48:13,320 - INFO - Dï¿½but de l'envoi des emails
+2025-06-13 11:48:13,324 - INFO - Tentative d'envoi ï¿½ rulmystic@gmail.com
+2025-06-13 11:48:13,885 - INFO - Email envoyï¿½ avec succï¿½s ï¿½ rulmystic@gmail.com
+2025-06-13 11:48:13,887 - INFO - Tentative d'envoi ï¿½ clara.morin94@testmail.com
+2025-06-13 11:48:14,497 - INFO - Email envoyï¿½ avec succï¿½s ï¿½ clara.morin94@testmail.com
+2025-06-13 11:48:14,498 - INFO - Tentative d'envoi ï¿½ leo.dubois13@demo.net
+2025-06-13 11:48:15,051 - INFO - Email envoyï¿½ avec succï¿½s ï¿½ leo.dubois13@demo.net
+2025-06-13 11:48:15,053 - INFO - Tentative d'envoi ï¿½ julie.martin88@exemple.org
+2025-06-13 11:48:15,618 - INFO - Email envoyï¿½ avec succï¿½s ï¿½ julie.martin88@exemple.org
+2025-06-13 11:48:15,620 - INFO - Tentative d'envoi ï¿½ thomas.lefevre77@mailninja.io
+2025-06-13 11:48:16,271 - INFO - Email envoyï¿½ avec succï¿½s ï¿½ thomas.lefevre77@mailninja.io
+2025-06-13 11:48:16,273 - INFO - Tentative d'envoi ï¿½ camille.perrin66@nullmail.org
+2025-06-13 11:48:16,914 - INFO - Email envoyï¿½ avec succï¿½s ï¿½ camille.perrin66@nullmail.org
+2025-06-13 11:48:16,916 - INFO - Tentative d'envoi ï¿½ maxime.robert42@testnow.co
+2025-06-13 11:48:17,480 - INFO - Email envoyï¿½ avec succï¿½s ï¿½ maxime.robert42@testnow.co
+2025-06-13 11:48:17,481 - INFO - Tentative d'envoi ï¿½ alice.fontaine11@fakeinbox.org
+2025-06-13 11:48:18,155 - INFO - Email envoyï¿½ avec succï¿½s ï¿½ alice.fontaine11@fakeinbox.org
+2025-06-13 11:48:18,156 - INFO - Tentative d'envoi ï¿½ hugo.bertrand22@maildrop.cc
+2025-06-13 11:48:18,742 - INFO - Email envoyï¿½ avec succï¿½s ï¿½ hugo.bertrand22@maildrop.cc
+2025-06-13 11:48:18,744 - INFO - Tentative d'envoi ï¿½ emma.lambert39@inboxzero.io
+2025-06-13 11:48:19,316 - INFO - Email envoyï¿½ avec succï¿½s ï¿½ emma.lambert39@inboxzero.io
+2025-06-13 11:48:19,317 - INFO - Tentative d'envoi ï¿½ nathan.renaud57@tempmail.dev
+2025-06-13 11:48:19,901 - INFO - Email envoyï¿½ avec succï¿½s ï¿½ nathan.renaud57@tempmail.dev
+2025-06-13 11:48:19,902 - INFO - Fermeture de la connexion SMTP
+2025-06-13 11:48:19,918 - INFO - Rï¿½sumï¿½ de l'envoi : 11 envoyï¿½s, 0 erreurs
+2025-06-13 11:48:19,919 - INFO - Statut mis ï¿½ jour en 'envoye'
+2025-06-13 11:49:11,052 - INFO - Mï¿½thode GET dï¿½tectï¿½e
+2025-06-13 11:49:37,456 - INFO - Mï¿½thode POST dï¿½tectï¿½e
+2025-06-13 11:49:37,456 - INFO - Formulaire crï¿½ï¿½ avec les donnï¿½es: <QueryDict: {'csrfmiddlewaretoken': ['E9mfqlyop3SepiYKPVFK5o3FEB9BZk7DZ8d62Dn7qioVpaUhs7gv6uTVHNDrAjfD'], 'titre': ['titre'], 'objet': ['fdevfdsf'], 'contenu_text': ['fvSvdwcQScesfzqer zr ZEze:\r\n\r\n\r\naedefsevfd'], 'police': ['Arial']}>
+2025-06-13 11:49:37,457 - INFO - Formulaire valide
+2025-06-13 11:49:37,463 - INFO - Newsletter crï¿½ï¿½e avec succï¿½s: 7
+2025-06-13 11:49:43,672 - INFO - Dï¿½but de l'envoi de la newsletter 7
+2025-06-13 11:55:01,085 - INFO - C:\app_newsletter\newsletters\views.py changed, reloading.
+2025-06-13 11:55:01,114 - INFO - C:\app_newsletter\newsletters\views.py changed, reloading.
+2025-06-13 11:55:02,065 - INFO - Structure de la base de donnï¿½es mise ï¿½ jour avec succï¿½s
+2025-06-13 11:55:02,065 - INFO - Base de donnï¿½es initialisï¿½e
+2025-06-13 11:55:02,065 - INFO - Configuration chargï¿½e: {'smtp_server': 'smtp.gmail.com', 'smtp_port': 587, 'email_sender': 'votre_email@gmail.com', 'email_password': '***masquï¿½***', 'sender_name': 'Votre Newsletter', 'provider': 'gmail'}
+2025-06-13 11:55:02,070 - INFO - Structure de la base de donnï¿½es mise ï¿½ jour avec succï¿½s
+2025-06-13 11:55:02,070 - INFO - Base de donnï¿½es initialisï¿½e
+2025-06-13 11:55:02,071 - INFO - Configuration chargï¿½e: {'smtp_server': 'smtp.gmail.com', 'smtp_port': 587, 'email_sender': 'votre_email@gmail.com', 'email_password': '***masquï¿½***', 'sender_name': 'Votre Newsletter', 'provider': 'gmail'}
+2025-06-13 11:55:02,086 - INFO - Envoi de la newsletter planifiï¿½e 7
+2025-06-13 11:55:02,090 - INFO - Envoi de la newsletter planifiï¿½e 7
+2025-06-13 11:55:02,421 - ERROR - Erreur lors de l'envoi ï¿½ rulmystic@gmail.com: list index out of range
+2025-06-13 11:55:02,432 - ERROR - Erreur lors de l'envoi ï¿½ clara.morin94@testmail.com: list index out of range
+2025-06-13 11:55:02,436 - ERROR - Erreur lors de l'envoi ï¿½ leo.dubois13@demo.net: list index out of range
+2025-06-13 11:55:02,439 - ERROR - Erreur lors de l'envoi ï¿½ julie.martin88@exemple.org: list index out of range
+2025-06-13 11:55:02,444 - ERROR - Erreur lors de l'envoi ï¿½ thomas.lefevre77@mailninja.io: list index out of range
+2025-06-13 11:55:02,448 - ERROR - Erreur lors de l'envoi ï¿½ camille.perrin66@nullmail.org: list index out of range
+2025-06-13 11:55:02,452 - ERROR - Erreur lors de l'envoi ï¿½ maxime.robert42@testnow.co: list index out of range
+2025-06-13 11:55:02,455 - ERROR - Erreur lors de l'envoi ï¿½ alice.fontaine11@fakeinbox.org: list index out of range
+2025-06-13 11:55:02,459 - ERROR - Erreur lors de l'envoi ï¿½ hugo.bertrand22@maildrop.cc: list index out of range
+2025-06-13 11:55:02,462 - ERROR - Erreur lors de l'envoi ï¿½ emma.lambert39@inboxzero.io: list index out of range
+2025-06-13 11:55:02,466 - ERROR - Erreur lors de l'envoi ï¿½ nathan.renaud57@tempmail.dev: list index out of range
+2025-06-13 11:55:02,467 - ERROR - Erreur lors de l'envoi ï¿½ rulmystic@gmail.com: list index out of range
+2025-06-13 11:55:02,498 - ERROR - Erreur lors de l'envoi de la newsletter 7: UNIQUE constraint failed: newsletters_envoi.newsletter_id, newsletters_envoi.subscriber_id
+2025-06-13 11:55:02,517 - INFO - Newsletter 7 envoyï¿½e : 0 succï¿½s, 11 erreurs
+2025-06-13 11:55:07,816 - INFO - Dï¿½but de l'envoi de la newsletter 7
+2025-06-13 11:55:07,817 - INFO - Dï¿½but de l'envoi immï¿½diat
+2025-06-13 11:55:07,818 - INFO - Nombre d'abonnï¿½s actifs trouvï¿½s : 11
+2025-06-13 11:55:07,826 - INFO - Anciens envois supprimï¿½s
+2025-06-13 11:55:07,870 - INFO - Nouvelles entrï¿½es d'envoi crï¿½ï¿½es
+2025-06-13 11:55:07,874 - INFO - Statut de la newsletter mis ï¿½ jour en 'en_cours'
+2025-06-13 11:55:07,875 - INFO - Tentative de connexion au serveur SMTP
+2025-06-13 11:55:08,171 - INFO - Connexion SMTP rï¿½ussie
+2025-06-13 11:55:08,172 - INFO - Dï¿½but de l'envoi des emails
+2025-06-13 11:55:08,175 - INFO - Tentative d'envoi ï¿½ rulmystic@gmail.com
+2025-06-13 11:55:08,785 - INFO - Dï¿½but de l'envoi de la newsletter 7
+2025-06-13 11:55:08,786 - INFO - Dï¿½but de l'envoi immï¿½diat
+2025-06-13 11:55:08,787 - INFO - Nombre d'abonnï¿½s actifs trouvï¿½s : 11
+2025-06-13 11:55:08,794 - INFO - Anciens envois supprimï¿½s
+2025-06-13 11:55:08,839 - INFO - Nouvelles entrï¿½es d'envoi crï¿½ï¿½es
+2025-06-13 11:55:08,841 - INFO - Statut de la newsletter mis ï¿½ jour en 'en_cours'
+2025-06-13 11:55:08,841 - INFO - Tentative de connexion au serveur SMTP
+2025-06-13 11:55:09,017 - ERROR - Erreur gï¿½nï¿½rale lors de l'envoi : UNIQUE constraint failed: newsletters_envoi.newsletter_id, newsletters_envoi.subscriber_id
+2025-06-13 11:55:09,125 - INFO - Connexion SMTP rï¿½ussie
+2025-06-13 11:55:09,126 - INFO - Dï¿½but de l'envoi des emails
+2025-06-13 11:55:09,128 - INFO - Tentative d'envoi ï¿½ rulmystic@gmail.com
+2025-06-13 11:55:09,490 - INFO - Dï¿½but de l'envoi de la newsletter 7
+2025-06-13 11:55:09,491 - INFO - Dï¿½but de l'envoi immï¿½diat
+2025-06-13 11:55:09,492 - INFO - Nombre d'abonnï¿½s actifs trouvï¿½s : 11
+2025-06-13 11:55:09,501 - INFO - Anciens envois supprimï¿½s
+2025-06-13 11:55:09,556 - INFO - Nouvelles entrï¿½es d'envoi crï¿½ï¿½es
+2025-06-13 11:55:09,562 - INFO - Statut de la newsletter mis ï¿½ jour en 'en_cours'
+2025-06-13 11:55:09,563 - INFO - Tentative de connexion au serveur SMTP
+2025-06-13 11:55:09,674 - ERROR - Erreur gï¿½nï¿½rale lors de l'envoi : UNIQUE constraint failed: newsletters_envoi.newsletter_id, newsletters_envoi.subscriber_id
+2025-06-13 11:55:09,690 - INFO - Dï¿½but de l'envoi de la newsletter 7
+2025-06-13 11:55:09,690 - INFO - Dï¿½but de l'envoi immï¿½diat
+2025-06-13 11:55:09,692 - INFO - Nombre d'abonnï¿½s actifs trouvï¿½s : 11
+2025-06-13 11:55:09,698 - INFO - Anciens envois supprimï¿½s
+2025-06-13 11:55:09,748 - INFO - Nouvelles entrï¿½es d'envoi crï¿½ï¿½es
+2025-06-13 11:55:09,753 - INFO - Statut de la newsletter mis ï¿½ jour en 'en_cours'
+2025-06-13 11:55:09,754 - INFO - Tentative de connexion au serveur SMTP
+2025-06-13 11:55:09,876 - INFO - Connexion SMTP rï¿½ussie
+2025-06-13 11:55:09,877 - INFO - Dï¿½but de l'envoi des emails
+2025-06-13 11:55:09,878 - INFO - Tentative d'envoi ï¿½ rulmystic@gmail.com
+2025-06-13 11:55:10,061 - INFO - Connexion SMTP rï¿½ussie
+2025-06-13 11:55:10,062 - INFO - Dï¿½but de l'envoi des emails
+2025-06-13 11:55:10,064 - INFO - Tentative d'envoi ï¿½ rulmystic@gmail.com
+2025-06-13 11:55:10,533 - INFO - Email envoyï¿½ avec succï¿½s ï¿½ rulmystic@gmail.com
+2025-06-13 11:55:10,534 - INFO - Tentative d'envoi ï¿½ clara.morin94@testmail.com
+2025-06-13 11:55:10,869 - INFO - Email envoyï¿½ avec succï¿½s ï¿½ rulmystic@gmail.com
+2025-06-13 11:55:10,870 - INFO - Tentative d'envoi ï¿½ clara.morin94@testmail.com
+2025-06-13 11:55:11,254 - INFO - Email envoyï¿½ avec succï¿½s ï¿½ clara.morin94@testmail.com
+2025-06-13 11:55:11,256 - INFO - Tentative d'envoi ï¿½ leo.dubois13@demo.net
+2025-06-13 11:55:11,519 - INFO - Email envoyï¿½ avec succï¿½s ï¿½ clara.morin94@testmail.com
+2025-06-13 11:55:11,521 - INFO - Tentative d'envoi ï¿½ leo.dubois13@demo.net
+2025-06-13 11:55:11,990 - INFO - Email envoyï¿½ avec succï¿½s ï¿½ leo.dubois13@demo.net
+2025-06-13 11:55:11,991 - INFO - Tentative d'envoi ï¿½ julie.martin88@exemple.org
+2025-06-13 11:55:12,304 - INFO - Email envoyï¿½ avec succï¿½s ï¿½ leo.dubois13@demo.net
+2025-06-13 11:55:12,306 - INFO - Tentative d'envoi ï¿½ julie.martin88@exemple.org
+2025-06-13 11:55:12,722 - INFO - Email envoyï¿½ avec succï¿½s ï¿½ julie.martin88@exemple.org
+2025-06-13 11:55:12,726 - INFO - Tentative d'envoi ï¿½ thomas.lefevre77@mailninja.io
+2025-06-13 11:55:13,059 - INFO - Email envoyï¿½ avec succï¿½s ï¿½ julie.martin88@exemple.org
+2025-06-13 11:55:13,061 - INFO - Tentative d'envoi ï¿½ thomas.lefevre77@mailninja.io
+2025-06-13 11:55:13,659 - INFO - Email envoyï¿½ avec succï¿½s ï¿½ thomas.lefevre77@mailninja.io
+2025-06-13 11:55:13,660 - INFO - Tentative d'envoi ï¿½ camille.perrin66@nullmail.org
+2025-06-13 11:55:14,162 - INFO - Email envoyï¿½ avec succï¿½s ï¿½ thomas.lefevre77@mailninja.io
+2025-06-13 11:55:14,163 - INFO - Tentative d'envoi ï¿½ camille.perrin66@nullmail.org
+2025-06-13 11:55:14,293 - INFO - Email envoyï¿½ avec succï¿½s ï¿½ camille.perrin66@nullmail.org
+2025-06-13 11:55:14,294 - INFO - Tentative d'envoi ï¿½ maxime.robert42@testnow.co
+2025-06-13 11:55:14,979 - INFO - Email envoyï¿½ avec succï¿½s ï¿½ camille.perrin66@nullmail.org
+2025-06-13 11:55:14,980 - INFO - Tentative d'envoi ï¿½ maxime.robert42@testnow.co
+2025-06-13 11:55:15,229 - INFO - Email envoyï¿½ avec succï¿½s ï¿½ maxime.robert42@testnow.co
+2025-06-13 11:55:15,230 - INFO - Tentative d'envoi ï¿½ alice.fontaine11@fakeinbox.org
+2025-06-13 11:55:15,628 - INFO - Email envoyï¿½ avec succï¿½s ï¿½ maxime.robert42@testnow.co
+2025-06-13 11:55:15,629 - INFO - Tentative d'envoi ï¿½ alice.fontaine11@fakeinbox.org
+2025-06-13 11:55:15,884 - INFO - Email envoyï¿½ avec succï¿½s ï¿½ alice.fontaine11@fakeinbox.org
+2025-06-13 11:55:15,885 - INFO - Tentative d'envoi ï¿½ hugo.bertrand22@maildrop.cc
+2025-06-13 11:55:16,177 - INFO - Email envoyï¿½ avec succï¿½s ï¿½ alice.fontaine11@fakeinbox.org
+2025-06-13 11:55:16,178 - INFO - Tentative d'envoi ï¿½ hugo.bertrand22@maildrop.cc
+2025-06-13 11:55:16,680 - INFO - Email envoyï¿½ avec succï¿½s ï¿½ hugo.bertrand22@maildrop.cc
+2025-06-13 11:55:16,681 - INFO - Tentative d'envoi ï¿½ emma.lambert39@inboxzero.io
+2025-06-13 11:55:17,261 - INFO - Email envoyï¿½ avec succï¿½s ï¿½ emma.lambert39@inboxzero.io
+2025-06-13 11:55:17,262 - INFO - Tentative d'envoi ï¿½ nathan.renaud57@tempmail.dev
+2025-06-13 11:55:17,656 - INFO - Email envoyï¿½ avec succï¿½s ï¿½ hugo.bertrand22@maildrop.cc
+2025-06-13 11:55:17,658 - INFO - Tentative d'envoi ï¿½ emma.lambert39@inboxzero.io
+2025-06-13 11:55:18,081 - INFO - Email envoyï¿½ avec succï¿½s ï¿½ nathan.renaud57@tempmail.dev
+2025-06-13 11:55:18,082 - INFO - Fermeture de la connexion SMTP
+2025-06-13 11:55:18,098 - INFO - Rï¿½sumï¿½ de l'envoi : 11 envoyï¿½s, 0 erreurs
+2025-06-13 11:55:18,098 - INFO - Statut mis ï¿½ jour en 'envoye'
+2025-06-13 11:55:18,947 - INFO - Email envoyï¿½ avec succï¿½s ï¿½ emma.lambert39@inboxzero.io
+2025-06-13 11:55:18,949 - INFO - Tentative d'envoi ï¿½ nathan.renaud57@tempmail.dev
+2025-06-13 11:55:19,574 - INFO - Email envoyï¿½ avec succï¿½s ï¿½ nathan.renaud57@tempmail.dev
+2025-06-13 11:55:19,575 - INFO - Fermeture de la connexion SMTP
+2025-06-13 11:55:19,591 - INFO - Rï¿½sumï¿½ de l'envoi : 11 envoyï¿½s, 0 erreurs
+2025-06-13 11:55:19,591 - INFO - Statut mis ï¿½ jour en 'envoye'
+2025-06-13 11:56:53,329 - INFO - Mï¿½thode GET dï¿½tectï¿½e
+2025-06-13 11:57:04,928 - INFO - Mï¿½thode POST dï¿½tectï¿½e
+2025-06-13 11:57:04,929 - INFO - Formulaire crï¿½ï¿½ avec les donnï¿½es: <QueryDict: {'csrfmiddlewaretoken': ['xueagIA3VN6uCtSTJeAzVTN8qRzfaGzqSt51S0pMW2CbClOqmqbkWZDot335LFHq'], 'titre': ['titre'], 'objet': ['fdevfdsf'], 'contenu_text': ['bggbhgbh'], 'police': ['Arial']}>
+2025-06-13 11:57:04,931 - INFO - Formulaire valide
+2025-06-13 11:57:04,942 - INFO - Newsletter crï¿½ï¿½e avec succï¿½s: 8
+2025-06-13 11:57:10,627 - INFO - Dï¿½but de l'envoi de la newsletter 8
+2025-06-13 11:59:02,526 - INFO - Envoi de la newsletter planifiï¿½e 8
+2025-06-13 11:59:02,547 - INFO - Envoi de la newsletter planifiï¿½e 8
+2025-06-13 11:59:02,858 - ERROR - Erreur lors de l'envoi ï¿½ rulmystic@gmail.com: list index out of range
+2025-06-13 11:59:02,863 - ERROR - Erreur lors de l'envoi ï¿½ rulmystic@gmail.com: list index out of range
+2025-06-13 11:59:02,876 - ERROR - Erreur lors de l'envoi ï¿½ clara.morin94@testmail.com: list index out of range
+2025-06-13 11:59:02,877 - ERROR - Erreur lors de l'envoi de la newsletter 8: UNIQUE constraint failed: newsletters_envoi.newsletter_id, newsletters_envoi.subscriber_id
+2025-06-13 11:59:02,889 - ERROR - Erreur lors de l'envoi ï¿½ leo.dubois13@demo.net: list index out of range
+2025-06-13 11:59:02,914 - ERROR - Erreur lors de l'envoi ï¿½ julie.martin88@exemple.org: list index out of range
+2025-06-13 11:59:02,923 - ERROR - Erreur lors de l'envoi ï¿½ thomas.lefevre77@mailninja.io: list index out of range
+2025-06-13 11:59:02,960 - ERROR - Erreur lors de l'envoi ï¿½ camille.perrin66@nullmail.org: list index out of range
+2025-06-13 11:59:02,966 - ERROR - Erreur lors de l'envoi ï¿½ maxime.robert42@testnow.co: list index out of range
+2025-06-13 11:59:02,975 - ERROR - Erreur lors de l'envoi ï¿½ alice.fontaine11@fakeinbox.org: list index out of range
+2025-06-13 11:59:02,986 - ERROR - Erreur lors de l'envoi ï¿½ hugo.bertrand22@maildrop.cc: list index out of range
+2025-06-13 11:59:02,993 - ERROR - Erreur lors de l'envoi ï¿½ emma.lambert39@inboxzero.io: list index out of range
+2025-06-13 11:59:03,000 - ERROR - Erreur lors de l'envoi ï¿½ nathan.renaud57@tempmail.dev: list index out of range
+2025-06-13 11:59:03,031 - INFO - Newsletter 8 envoyï¿½e : 0 succï¿½s, 11 erreurs
+2025-06-13 12:01:09,909 - INFO - C:\app_newsletter\newsletters\views.py changed, reloading.
+2025-06-13 12:01:10,447 - INFO - C:\app_newsletter\newsletters\views.py changed, reloading.
+2025-06-13 12:01:10,768 - INFO - Structure de la base de donnï¿½es mise ï¿½ jour avec succï¿½s
+2025-06-13 12:01:10,769 - INFO - Base de donnï¿½es initialisï¿½e
+2025-06-13 12:01:10,769 - INFO - Configuration chargï¿½e: {'smtp_server': 'smtp.gmail.com', 'smtp_port': 587, 'email_sender': 'votre_email@gmail.com', 'email_password': '***masquï¿½***', 'sender_name': 'Votre Newsletter', 'provider': 'gmail'}
+2025-06-13 12:01:11,211 - INFO - Structure de la base de donnï¿½es mise ï¿½ jour avec succï¿½s
+2025-06-13 12:01:11,211 - INFO - Base de donnï¿½es initialisï¿½e
+2025-06-13 12:01:11,212 - INFO - Configuration chargï¿½e: {'smtp_server': 'smtp.gmail.com', 'smtp_port': 587, 'email_sender': 'votre_email@gmail.com', 'email_password': '***masquï¿½***', 'sender_name': 'Votre Newsletter', 'provider': 'gmail'}
+2025-06-13 12:01:39,421 - INFO - Mï¿½thode GET dï¿½tectï¿½e
+2025-06-13 12:01:47,081 - INFO - Mï¿½thode POST dï¿½tectï¿½e
+2025-06-13 12:01:47,083 - INFO - Formulaire crï¿½ï¿½ avec les donnï¿½es: <QueryDict: {'csrfmiddlewaretoken': ['5Wh0IOplJor9X8FlVSFcrBK703dHLV4kqV8Rk6e4KDXQX0BSy4gXsHAn3fHxmUck'], 'titre': ['vvdsvs'], 'objet': ['dgqrg'], 'contenu_text': ['hsvwdvcDfsqzrfqer'], 'police': ['Arial']}>
+2025-06-13 12:01:47,084 - INFO - Formulaire valide
+2025-06-13 12:01:47,093 - INFO - Newsletter crï¿½ï¿½e avec succï¿½s: 9
+2025-06-13 12:01:52,056 - INFO - Dï¿½but de l'envoi de la newsletter 9
+2025-06-13 12:02:10,775 - INFO - Envoi de la newsletter planifiï¿½e 9
+2025-06-13 12:02:11,103 - INFO - Connexion SMTP rï¿½ussie
+2025-06-13 12:02:11,106 - ERROR - Erreur lors de l'envoi ï¿½ rulmystic@gmail.com: list index out of range
+2025-06-13 12:02:11,116 - ERROR - Erreur lors de l'envoi ï¿½ clara.morin94@testmail.com: list index out of range
+2025-06-13 12:02:11,120 - ERROR - Erreur lors de l'envoi ï¿½ leo.dubois13@demo.net: list index out of range
+2025-06-13 12:02:11,125 - ERROR - Erreur lors de l'envoi ï¿½ julie.martin88@exemple.org: list index out of range
+2025-06-13 12:02:11,130 - ERROR - Erreur lors de l'envoi ï¿½ thomas.lefevre77@mailninja.io: list index out of range
+2025-06-13 12:02:11,135 - ERROR - Erreur lors de l'envoi ï¿½ camille.perrin66@nullmail.org: list index out of range
+2025-06-13 12:02:11,139 - ERROR - Erreur lors de l'envoi ï¿½ maxime.robert42@testnow.co: list index out of range
+2025-06-13 12:02:11,145 - ERROR - Erreur lors de l'envoi ï¿½ alice.fontaine11@fakeinbox.org: list index out of range
+2025-06-13 12:02:11,151 - ERROR - Erreur lors de l'envoi ï¿½ hugo.bertrand22@maildrop.cc: list index out of range
+2025-06-13 12:02:11,157 - ERROR - Erreur lors de l'envoi ï¿½ emma.lambert39@inboxzero.io: list index out of range
+2025-06-13 12:02:11,162 - ERROR - Erreur lors de l'envoi ï¿½ nathan.renaud57@tempmail.dev: list index out of range
+2025-06-13 12:02:11,187 - INFO - Newsletter 9 envoyï¿½e : 0 succï¿½s, 11 erreurs
+2025-06-13 12:05:25,541 - INFO - C:\app_newsletter\newsletters\views.py changed, reloading.
+2025-06-13 12:05:25,874 - INFO - C:\app_newsletter\newsletters\views.py changed, reloading.
+2025-06-13 12:05:26,457 - INFO - Structure de la base de donnï¿½es mise ï¿½ jour avec succï¿½s
+2025-06-13 12:05:26,457 - INFO - Base de donnï¿½es initialisï¿½e
+2025-06-13 12:05:26,458 - INFO - Configuration chargï¿½e: {'smtp_server': 'smtp.gmail.com', 'smtp_port': 587, 'email_sender': 'votre_email@gmail.com', 'email_password': '***masquï¿½***', 'sender_name': 'Votre Newsletter', 'provider': 'gmail'}
+2025-06-13 12:05:26,783 - INFO - Structure de la base de donnï¿½es mise ï¿½ jour avec succï¿½s
+2025-06-13 12:05:26,783 - INFO - Base de donnï¿½es initialisï¿½e
+2025-06-13 12:05:26,784 - INFO - Configuration chargï¿½e: {'smtp_server': 'smtp.gmail.com', 'smtp_port': 587, 'email_sender': 'votre_email@gmail.com', 'email_password': '***masquï¿½***', 'sender_name': 'Votre Newsletter', 'provider': 'gmail'}
+2025-06-13 12:06:05,542 - INFO - Structure de la base de donnï¿½es mise ï¿½ jour avec succï¿½s
+2025-06-13 12:06:05,542 - INFO - Base de donnï¿½es initialisï¿½e
+2025-06-13 12:06:05,543 - INFO - Configuration chargï¿½e: {'smtp_server': 'smtp.gmail.com', 'smtp_port': 587, 'email_sender': 'votre_email@gmail.com', 'email_password': '***masquï¿½***', 'sender_name': 'Votre Newsletter', 'provider': 'gmail'}
+2025-06-13 12:06:14,906 - INFO - Mï¿½thode GET dï¿½tectï¿½e
+2025-06-13 12:06:20,573 - INFO - Mï¿½thode POST dï¿½tectï¿½e
+2025-06-13 12:06:20,574 - INFO - Formulaire crï¿½ï¿½ avec les donnï¿½es: <QueryDict: {'csrfmiddlewaretoken': ['sTOtGhu8Jicq2Vz9swnLakk0WWQ7ccjrNSFkizjRKxI72NvG5IYwbqagZ8kXNbrr'], 'titre': ['vvdsvs'], 'objet': ['dgqrg'], 'contenu_text': ['evSdvfv'], 'police': ['Arial']}>
+2025-06-13 12:06:20,575 - INFO - Formulaire valide
+2025-06-13 12:06:20,582 - INFO - Newsletter crï¿½ï¿½e avec succï¿½s: 10
+2025-06-13 12:06:25,533 - INFO - Dï¿½but de l'envoi de la newsletter 10
+2025-06-13 12:06:26,465 - INFO - Envoi de la newsletter planifiï¿½e 10
+2025-06-13 12:06:26,799 - INFO - Connexion SMTP rï¿½ussie
+2025-06-13 12:06:27,455 - INFO - Email envoyï¿½ avec succï¿½s ï¿½ rulmystic@gmail.com
+2025-06-13 12:06:28,023 - INFO - Email envoyï¿½ avec succï¿½s ï¿½ clara.morin94@testmail.com
+2025-06-13 12:06:28,675 - INFO - Email envoyï¿½ avec succï¿½s ï¿½ leo.dubois13@demo.net
+2025-06-13 12:06:29,386 - INFO - Email envoyï¿½ avec succï¿½s ï¿½ julie.martin88@exemple.org
+2025-06-13 12:06:29,948 - INFO - Email envoyï¿½ avec succï¿½s ï¿½ thomas.lefevre77@mailninja.io
+2025-06-13 12:06:30,570 - INFO - Email envoyï¿½ avec succï¿½s ï¿½ camille.perrin66@nullmail.org
+2025-06-13 12:06:31,324 - INFO - Email envoyï¿½ avec succï¿½s ï¿½ maxime.robert42@testnow.co
+2025-06-13 12:06:31,895 - INFO - Email envoyï¿½ avec succï¿½s ï¿½ alice.fontaine11@fakeinbox.org
+2025-06-13 12:06:32,514 - INFO - Email envoyï¿½ avec succï¿½s ï¿½ hugo.bertrand22@maildrop.cc
+2025-06-13 12:06:33,086 - INFO - Email envoyï¿½ avec succï¿½s ï¿½ emma.lambert39@inboxzero.io
+2025-06-13 12:06:33,741 - INFO - Email envoyï¿½ avec succï¿½s ï¿½ nathan.renaud57@tempmail.dev
+2025-06-13 12:06:33,764 - INFO - Newsletter 10 envoyï¿½e : 11 succï¿½s, 0 erreurs
+2025-06-13 12:07:44,752 - INFO - Mï¿½thode GET dï¿½tectï¿½e
+2025-06-13 12:07:58,838 - INFO - Mï¿½thode POST dï¿½tectï¿½e
+2025-06-13 12:07:58,839 - INFO - Formulaire crï¿½ï¿½ avec les donnï¿½es: <QueryDict: {'csrfmiddlewaretoken': ['RUf36dfndGhVdowMGHjxYHCPlHzGgtSpcT6UIv46eVNCdgsjjTUiZNs5oT3wRs0p'], 'titre': ['lelelel'], 'objet': ['ecqdscsqdc'], 'contenu_text': ['fbfdqvbfdvfv'], 'police': ['Arial']}>
+2025-06-13 12:07:58,840 - INFO - Formulaire valide
+2025-06-13 12:07:58,848 - INFO - Newsletter crï¿½ï¿½e avec succï¿½s: 11
+2025-06-13 12:08:04,395 - INFO - Dï¿½but de l'envoi de la newsletter 11
+2025-06-13 12:08:05,554 - INFO - Envoi de la newsletter planifiï¿½e 11
+2025-06-13 12:08:05,896 - INFO - Connexion SMTP rï¿½ussie
+2025-06-13 12:08:06,523 - INFO - Email envoyï¿½ avec succï¿½s ï¿½ rulmystic@gmail.com
+2025-06-13 12:08:07,138 - INFO - Email envoyï¿½ avec succï¿½s ï¿½ clara.morin94@testmail.com
+2025-06-13 12:08:07,756 - INFO - Email envoyï¿½ avec succï¿½s ï¿½ leo.dubois13@demo.net
+2025-06-13 12:08:08,357 - INFO - Email envoyï¿½ avec succï¿½s ï¿½ julie.martin88@exemple.org
+2025-06-13 12:08:08,917 - INFO - Email envoyï¿½ avec succï¿½s ï¿½ thomas.lefevre77@mailninja.io
+2025-06-13 12:08:09,524 - INFO - Email envoyï¿½ avec succï¿½s ï¿½ camille.perrin66@nullmail.org
+2025-06-13 12:08:10,186 - INFO - Email envoyï¿½ avec succï¿½s ï¿½ maxime.robert42@testnow.co
+2025-06-13 12:08:10,784 - INFO - Email envoyï¿½ avec succï¿½s ï¿½ alice.fontaine11@fakeinbox.org
+2025-06-13 12:08:11,465 - INFO - Email envoyï¿½ avec succï¿½s ï¿½ hugo.bertrand22@maildrop.cc
+2025-06-13 12:08:12,045 - INFO - Email envoyï¿½ avec succï¿½s ï¿½ emma.lambert39@inboxzero.io
+2025-06-13 12:08:12,616 - INFO - Email envoyï¿½ avec succï¿½s ï¿½ nathan.renaud57@tempmail.dev
+2025-06-13 12:08:12,641 - INFO - Newsletter 11 envoyï¿½e : 11 succï¿½s, 0 erreurs
+2025-06-13 12:18:53,247 - INFO - C:\app_newsletter\newsletters\views.py changed, reloading.
+2025-06-13 12:18:53,745 - INFO - C:\app_newsletter\newsletters\views.py changed, reloading.
+2025-06-13 12:18:54,053 - INFO - Structure de la base de donnï¿½es mise ï¿½ jour avec succï¿½s
+2025-06-13 12:18:54,054 - INFO - Base de donnï¿½es initialisï¿½e
+2025-06-13 12:18:54,054 - INFO - Configuration chargï¿½e: {'smtp_server': 'smtp.gmail.com', 'smtp_port': 587, 'email_sender': 'votre_email@gmail.com', 'email_password': '***masquï¿½***', 'sender_name': 'Votre Newsletter', 'provider': 'gmail'}
+2025-06-13 12:18:54,512 - INFO - Structure de la base de donnï¿½es mise ï¿½ jour avec succï¿½s
+2025-06-13 12:18:54,512 - INFO - Base de donnï¿½es initialisï¿½e
+2025-06-13 12:18:54,513 - INFO - Configuration chargï¿½e: {'smtp_server': 'smtp.gmail.com', 'smtp_port': 587, 'email_sender': 'votre_email@gmail.com', 'email_password': '***masquï¿½***', 'sender_name': 'Votre Newsletter', 'provider': 'gmail'}
+2025-06-13 14:09:26,193 - INFO - Méthode GET détectée
+2025-06-13 15:00:09,182 - INFO - C:\app_newsletter\newsletter_project\settings.py changed, reloading.
+2025-06-13 15:00:09,183 - INFO - C:\app_newsletter\newsletter_project\settings.py changed, reloading.
+2025-06-13 15:00:10,488 - INFO - Structure de la base de données mise à jour avec succès
+2025-06-13 15:00:10,489 - INFO - Base de données initialisée
+2025-06-13 15:00:10,489 - INFO - Configuration chargée: {'smtp_server': 'smtp.gmail.com', 'smtp_port': 587, 'email_sender': 'votre_email@gmail.com', 'email_password': '***masqué***', 'sender_name': 'Votre Newsletter', 'provider': 'gmail'}
+2025-06-13 15:00:10,501 - INFO - Structure de la base de données mise à jour avec succès
+2025-06-13 15:00:10,501 - INFO - Base de données initialisée
+2025-06-13 15:00:10,502 - INFO - Configuration chargée: {'smtp_server': 'smtp.gmail.com', 'smtp_port': 587, 'email_sender': 'votre_email@gmail.com', 'email_password': '***masqué***', 'sender_name': 'Votre Newsletter', 'provider': 'gmail'}
+2025-06-13 15:00:24,259 - INFO - C:\app_newsletter\newsletter_project\settings.py changed, reloading.
+2025-06-13 15:00:24,260 - INFO - C:\app_newsletter\newsletter_project\settings.py changed, reloading.
+2025-06-13 15:00:25,013 - INFO - Structure de la base de données mise à jour avec succès
+2025-06-13 15:00:25,013 - INFO - Base de données initialisée
+2025-06-13 15:00:25,014 - INFO - Configuration chargée: {'smtp_server': 'smtp.gmail.com', 'smtp_port': 587, 'email_sender': 'votre_email@gmail.com', 'email_password': '***masqué***', 'sender_name': 'Votre Newsletter', 'provider': 'gmail'}
+2025-06-13 15:00:25,017 - INFO - Structure de la base de données mise à jour avec succès
+2025-06-13 15:00:25,017 - INFO - Base de données initialisée
+2025-06-13 15:00:25,018 - INFO - Configuration chargée: {'smtp_server': 'smtp.gmail.com', 'smtp_port': 587, 'email_sender': 'votre_email@gmail.com', 'email_password': '***masqué***', 'sender_name': 'Votre Newsletter', 'provider': 'gmail'}
+2025-06-13 15:00:28,432 - INFO - C:\app_newsletter\newsletter_project\settings.py changed, reloading.
+2025-06-13 15:00:28,443 - INFO - C:\app_newsletter\newsletter_project\settings.py changed, reloading.
+2025-06-13 15:00:29,330 - INFO - Structure de la base de données mise à jour avec succès
+2025-06-13 15:00:29,330 - INFO - Base de données initialisée
+2025-06-13 15:00:29,330 - INFO - Configuration chargée: {'smtp_server': 'smtp.gmail.com', 'smtp_port': 587, 'email_sender': 'votre_email@gmail.com', 'email_password': '***masqué***', 'sender_name': 'Votre Newsletter', 'provider': 'gmail'}
+2025-06-13 15:00:29,359 - INFO - Structure de la base de données mise à jour avec succès
+2025-06-13 15:00:29,360 - INFO - Base de données initialisée
+2025-06-13 15:00:29,360 - INFO - Configuration chargée: {'smtp_server': 'smtp.gmail.com', 'smtp_port': 587, 'email_sender': 'votre_email@gmail.com', 'email_password': '***masqué***', 'sender_name': 'Votre Newsletter', 'provider': 'gmail'}
+2025-06-13 15:00:40,637 - INFO - Méthode GET détectée
+2025-06-13 15:00:47,769 - INFO - Méthode GET détectée
+2025-06-13 15:01:06,106 - INFO - Méthode POST détectée
+2025-06-13 15:01:06,108 - INFO - Formulaire créé avec les données: <QueryDict: {'csrfmiddlewaretoken': ['H4a8nbTVJKZwFGzMlB1uyunCNFH7ncAmMILCjDfqK92zFVqtLli1HkILD3btWkEY'], 'titre': ['titre'], 'objet': ['kkk'], 'contenu_text': ['khghj,hgj,'], 'police': ['Times new roman']}>
+2025-06-13 15:01:06,110 - INFO - Formulaire valide
+2025-06-13 15:01:06,118 - INFO - Newsletter créée avec succès: 12
+2025-06-13 15:01:16,260 - INFO - Début de l'envoi de la newsletter 12
+2025-06-13 15:01:16,261 - INFO - Début de l'envoi immédiat
+2025-06-13 15:01:16,265 - INFO - Nombre d'abonnés actifs trouvés : 11
+2025-06-13 15:01:16,268 - INFO - Anciens envois supprimés
+2025-06-13 15:01:16,328 - INFO - Nouvelles entrées d'envoi créées
+2025-06-13 15:01:16,333 - INFO - Statut de la newsletter mis à jour en 'en_cours'
+2025-06-13 15:01:16,334 - INFO - Tentative de connexion au serveur SMTP
+2025-06-13 15:01:17,014 - INFO - Connexion SMTP réussie
+2025-06-13 15:01:18,056 - INFO - Email envoyé avec succès à rulmystic@gmail.com
+2025-06-13 15:01:18,063 - INFO - Email envoyé avec succès à clara.morin94@testmail.com
+2025-06-13 15:01:18,068 - INFO - Email envoyé avec succès à leo.dubois13@demo.net
+2025-06-13 15:01:18,072 - INFO - Email envoyé avec succès à julie.martin88@exemple.org
+2025-06-13 15:01:18,077 - INFO - Email envoyé avec succès à thomas.lefevre77@mailninja.io
+2025-06-13 15:01:18,081 - INFO - Email envoyé avec succès à camille.perrin66@nullmail.org
+2025-06-13 15:01:18,084 - INFO - Email envoyé avec succès à maxime.robert42@testnow.co
+2025-06-13 15:01:18,088 - INFO - Email envoyé avec succès à alice.fontaine11@fakeinbox.org
+2025-06-13 15:01:18,093 - INFO - Email envoyé avec succès à hugo.bertrand22@maildrop.cc
+2025-06-13 15:01:18,097 - INFO - Email envoyé avec succès à emma.lambert39@inboxzero.io
+2025-06-13 15:01:18,101 - INFO - Email envoyé avec succès à nathan.renaud57@tempmail.dev
+2025-06-13 15:01:18,117 - INFO - Résumé de l'envoi : 11 envoyés, 0 erreurs
+2025-06-13 15:01:18,117 - INFO - Statut mis à jour en 'envoye'
+2025-06-13 15:06:29,966 - INFO - Méthode GET détectée
+2025-06-13 15:07:38,468 - INFO - Méthode POST détectée
+2025-06-13 15:07:38,470 - INFO - Formulaire créé avec les données: <QueryDict: {'csrfmiddlewaretoken': ['VgoiZ9QSW3LGSV9hK0UKYMZSWZ72rhrk0UZMVBcnXsOJSa0YaKbh7Ck1MnBo0pvW'], 'titre': ['cezsc'], 'objet': ['efzde'], 'contenu_text': ['**edezdazedaezdéezde**\r\n\r\n\r\nddedededed\r\ndedzdza\r\ndzed\r\nedz\r\ned\r\n\r\n*ezdedez*'], 'police': ['Arial']}>
+2025-06-13 15:07:38,471 - INFO - Formulaire valide
+2025-06-13 15:07:38,478 - INFO - Newsletter créée avec succès: 13
+2025-06-13 15:07:50,011 - INFO - Début de l'envoi de la newsletter 13
+2025-06-13 15:07:50,016 - INFO - Début de l'envoi immédiat
+2025-06-13 15:07:50,019 - INFO - Nombre d'abonnés actifs trouvés : 11
+2025-06-13 15:07:50,021 - INFO - Anciens envois supprimés
+2025-06-13 15:07:50,085 - INFO - Nouvelles entrées d'envoi créées
+2025-06-13 15:07:50,090 - INFO - Statut de la newsletter mis à jour en 'en_cours'
+2025-06-13 15:07:50,091 - INFO - Tentative de connexion au serveur SMTP
+2025-06-13 15:07:50,484 - INFO - Connexion SMTP réussie
+2025-06-13 15:07:51,361 - INFO - Email envoyé avec succès à rulmystic@gmail.com
+2025-06-13 15:07:51,367 - INFO - Email envoyé avec succès à clara.morin94@testmail.com
+2025-06-13 15:07:51,373 - INFO - Email envoyé avec succès à leo.dubois13@demo.net
+2025-06-13 15:07:51,381 - INFO - Email envoyé avec succès à julie.martin88@exemple.org
+2025-06-13 15:07:51,390 - INFO - Email envoyé avec succès à thomas.lefevre77@mailninja.io
+2025-06-13 15:07:51,395 - INFO - Email envoyé avec succès à camille.perrin66@nullmail.org
+2025-06-13 15:07:51,400 - INFO - Email envoyé avec succès à maxime.robert42@testnow.co
+2025-06-13 15:07:51,405 - INFO - Email envoyé avec succès à alice.fontaine11@fakeinbox.org
+2025-06-13 15:07:51,410 - INFO - Email envoyé avec succès à hugo.bertrand22@maildrop.cc
+2025-06-13 15:07:51,417 - INFO - Email envoyé avec succès à emma.lambert39@inboxzero.io
+2025-06-13 15:07:51,423 - INFO - Email envoyé avec succès à nathan.renaud57@tempmail.dev
+2025-06-13 15:07:51,438 - INFO - Résumé de l'envoi : 11 envoyés, 0 erreurs
+2025-06-13 15:07:51,439 - INFO - Statut mis à jour en 'envoye'
+2025-06-13 15:09:39,057 - INFO - C:\app_newsletter\newsletters\views.py changed, reloading.
+2025-06-13 15:09:39,393 - INFO - C:\app_newsletter\newsletters\views.py changed, reloading.
+2025-06-13 15:09:42,268 - INFO - Structure de la base de données mise à jour avec succès
+2025-06-13 15:09:42,268 - INFO - Base de données initialisée
+2025-06-13 15:09:42,269 - INFO - Configuration chargée: {'smtp_server': 'smtp.gmail.com', 'smtp_port': 587, 'email_sender': 'votre_email@gmail.com', 'email_password': '***masqué***', 'sender_name': 'Votre Newsletter', 'provider': 'gmail'}
+2025-06-13 15:09:42,279 - INFO - Structure de la base de données mise à jour avec succès
+2025-06-13 15:09:42,280 - INFO - Base de données initialisée
+2025-06-13 15:09:42,280 - INFO - Configuration chargée: {'smtp_server': 'smtp.gmail.com', 'smtp_port': 587, 'email_sender': 'votre_email@gmail.com', 'email_password': '***masqué***', 'sender_name': 'Votre Newsletter', 'provider': 'gmail'}
+2025-06-13 15:11:25,252 - INFO - Méthode GET détectée
+2025-06-13 15:11:40,980 - INFO - Méthode GET détectée
+2025-06-13 15:12:00,719 - INFO - Méthode POST détectée
+2025-06-13 15:12:00,720 - INFO - Formulaire créé avec les données: <QueryDict: {'csrfmiddlewaretoken': ['NLUnVXO1KVFtp7Pt6zdUYF8pk84AVbf2SpvRRpawLkIwpmGawjur7vtyawyWujjE'], 'titre': ['eeff'], 'objet': ['efrfze'], 'contenu_text': ['ezrfezrf'], 'police': ['Times new roman']}>
+2025-06-13 15:12:00,721 - INFO - Formulaire valide
+2025-06-13 15:12:00,727 - INFO - Newsletter créée avec succès: 14
+2025-06-13 15:13:38,643 - INFO - Début de l'envoi de la newsletter 14
+2025-06-13 15:13:42,289 - INFO - Envoi de la newsletter planifiée 14
+2025-06-13 15:13:42,302 - INFO - Envoi de la newsletter planifiée 14
+2025-06-13 15:13:42,640 - INFO - Connexion SMTP réussie
+2025-06-13 15:13:42,642 - INFO - Connexion SMTP réussie
+2025-06-13 15:13:43,568 - INFO - Email envoyé avec succès à rulmystic@gmail.com
+2025-06-13 15:13:43,576 - INFO - Email envoyé avec succès à clara.morin94@testmail.com
+2025-06-13 15:13:43,588 - INFO - Email envoyé avec succès à leo.dubois13@demo.net
+2025-06-13 15:13:43,598 - INFO - Email envoyé avec succès à julie.martin88@exemple.org
+2025-06-13 15:13:43,607 - INFO - Email envoyé avec succès à thomas.lefevre77@mailninja.io
+2025-06-13 15:13:43,615 - INFO - Email envoyé avec succès à camille.perrin66@nullmail.org
+2025-06-13 15:13:43,623 - INFO - Email envoyé avec succès à maxime.robert42@testnow.co
+2025-06-13 15:13:43,629 - INFO - Email envoyé avec succès à alice.fontaine11@fakeinbox.org
+2025-06-13 15:13:43,637 - INFO - Email envoyé avec succès à hugo.bertrand22@maildrop.cc
+2025-06-13 15:13:43,642 - INFO - Email envoyé avec succès à emma.lambert39@inboxzero.io
+2025-06-13 15:13:43,647 - INFO - Email envoyé avec succès à nathan.renaud57@tempmail.dev
+2025-06-13 15:13:43,656 - ERROR - Erreur lors de l'envoi en masse: UNIQUE constraint failed: newsletters_envoi.newsletter_id, newsletters_envoi.subscriber_id
+2025-06-13 15:13:43,658 - ERROR - Erreur lors de l'envoi de la newsletter 14: UNIQUE constraint failed: newsletters_envoi.newsletter_id, newsletters_envoi.subscriber_id
+2025-06-13 15:13:43,670 - INFO - Newsletter 14 envoyée : 11 succès, 0 erreurs
+2025-06-13 15:16:49,930 - INFO - C:\app_newsletter\newsletters\models.py changed, reloading.
+2025-06-13 15:16:50,081 - INFO - C:\app_newsletter\newsletters\models.py changed, reloading.
+2025-06-13 15:16:50,733 - INFO - Structure de la base de données mise à jour avec succès
+2025-06-13 15:16:50,734 - INFO - Base de données initialisée
+2025-06-13 15:16:50,735 - INFO - Configuration chargée: {'smtp_server': 'smtp.gmail.com', 'smtp_port': 587, 'email_sender': 'votre_email@gmail.com', 'email_password': '***masqué***', 'sender_name': 'Votre Newsletter', 'provider': 'gmail'}
+2025-06-13 15:16:50,740 - ERROR - Erreur dans le thread de vérification : no such column: newsletters_newsletter.couleur_texte
+2025-06-13 15:16:50,849 - INFO - Structure de la base de données mise à jour avec succès
+2025-06-13 15:16:50,849 - INFO - Base de données initialisée
+2025-06-13 15:16:50,850 - INFO - Configuration chargée: {'smtp_server': 'smtp.gmail.com', 'smtp_port': 587, 'email_sender': 'votre_email@gmail.com', 'email_password': '***masqué***', 'sender_name': 'Votre Newsletter', 'provider': 'gmail'}
+2025-06-13 15:16:50,855 - ERROR - Erreur dans le thread de vérification : no such column: newsletters_newsletter.couleur_texte
+2025-06-13 15:16:59,358 - INFO - C:\app_newsletter\newsletters\views.py changed, reloading.
+2025-06-13 15:16:59,433 - INFO - C:\app_newsletter\newsletters\views.py changed, reloading.
+2025-06-13 15:17:00,229 - INFO - Structure de la base de données mise à jour avec succès
+2025-06-13 15:17:00,230 - INFO - Base de données initialisée
+2025-06-13 15:17:00,230 - INFO - Configuration chargée: {'smtp_server': 'smtp.gmail.com', 'smtp_port': 587, 'email_sender': 'votre_email@gmail.com', 'email_password': '***masqué***', 'sender_name': 'Votre Newsletter', 'provider': 'gmail'}
+2025-06-13 15:17:00,235 - ERROR - Erreur dans le thread de vérification : no such column: newsletters_newsletter.couleur_texte
+2025-06-13 15:17:00,262 - INFO - Structure de la base de données mise à jour avec succès
+2025-06-13 15:17:00,263 - INFO - Base de données initialisée
+2025-06-13 15:17:00,264 - INFO - Configuration chargée: {'smtp_server': 'smtp.gmail.com', 'smtp_port': 587, 'email_sender': 'votre_email@gmail.com', 'email_password': '***masqué***', 'sender_name': 'Votre Newsletter', 'provider': 'gmail'}
+2025-06-13 15:17:00,271 - ERROR - Erreur dans le thread de vérification : no such column: newsletters_newsletter.couleur_texte
+2025-06-13 15:17:30,238 - ERROR - Erreur dans le thread de vérification : no such column: newsletters_newsletter.couleur_texte
+2025-06-13 15:17:30,273 - ERROR - Erreur dans le thread de vérification : no such column: newsletters_newsletter.couleur_texte
+2025-06-13 15:18:00,242 - ERROR - Erreur dans le thread de vérification : no such column: newsletters_newsletter.couleur_texte
+2025-06-13 15:18:00,275 - ERROR - Erreur dans le thread de vérification : no such column: newsletters_newsletter.couleur_texte
+2025-06-13 15:18:03,491 - INFO - Structure de la base de données mise à jour avec succès
+2025-06-13 15:18:03,495 - INFO - Base de données initialisée
+2025-06-13 15:18:03,495 - INFO - Configuration chargée: {'smtp_server': 'smtp.gmail.com', 'smtp_port': 587, 'email_sender': 'votre_email@gmail.com', 'email_password': '***masqué***', 'sender_name': 'Votre Newsletter', 'provider': 'gmail'}
+2025-06-13 15:18:03,504 - ERROR - Erreur dans le thread de vérification : no such column: newsletters_newsletter.couleur_texte
+2025-06-13 15:18:04,359 - INFO - Structure de la base de données mise à jour avec succès
+2025-06-13 15:18:04,360 - INFO - Base de données initialisée
+2025-06-13 15:18:04,360 - INFO - Configuration chargée: {'smtp_server': 'smtp.gmail.com', 'smtp_port': 587, 'email_sender': 'votre_email@gmail.com', 'email_password': '***masqué***', 'sender_name': 'Votre Newsletter', 'provider': 'gmail'}
+2025-06-13 15:18:04,368 - ERROR - Erreur dans le thread de vérification : no such column: newsletters_newsletter.couleur_texte
+2025-06-13 15:18:13,276 - INFO - Structure de la base de données mise à jour avec succès
+2025-06-13 15:18:13,277 - INFO - Base de données initialisée
+2025-06-13 15:18:13,278 - INFO - Configuration chargée: {'smtp_server': 'smtp.gmail.com', 'smtp_port': 587, 'email_sender': 'votre_email@gmail.com', 'email_password': '***masqué***', 'sender_name': 'Votre Newsletter', 'provider': 'gmail'}
+2025-06-13 15:21:11,017 - INFO - Début de l'envoi de la newsletter 15
+2025-06-13 15:21:11,018 - INFO - Début de l'envoi immédiat
+2025-06-13 15:21:14,928 - INFO - Début de l'envoi de la newsletter 15
+2025-06-13 15:21:14,929 - INFO - Début de l'envoi immédiat
+2025-06-13 15:21:30,104 - INFO - Début de l'envoi de la newsletter 15
+2025-06-13 15:21:30,105 - INFO - Début de l'envoi immédiat
+2025-06-13 15:22:27,567 - INFO - C:\app_newsletter\newsletters\views.py changed, reloading.
+2025-06-13 15:22:27,575 - INFO - C:\app_newsletter\newsletters\views.py changed, reloading.
+2025-06-13 15:22:27,581 - INFO - C:\app_newsletter\newsletters\views.py changed, reloading.
+2025-06-13 15:22:28,431 - INFO - Structure de la base de données mise à jour avec succès
+2025-06-13 15:22:28,432 - INFO - Base de données initialisée
+2025-06-13 15:22:28,432 - INFO - Structure de la base de données mise à jour avec succès
+2025-06-13 15:22:28,432 - INFO - Configuration chargée: {'smtp_server': 'smtp.gmail.com', 'smtp_port': 587, 'email_sender': 'votre_email@gmail.com', 'email_password': '***masqué***', 'sender_name': 'Votre Newsletter', 'provider': 'gmail'}
+2025-06-13 15:22:28,432 - INFO - Base de données initialisée
+2025-06-13 15:22:28,433 - INFO - Configuration chargée: {'smtp_server': 'smtp.gmail.com', 'smtp_port': 587, 'email_sender': 'votre_email@gmail.com', 'email_password': '***masqué***', 'sender_name': 'Votre Newsletter', 'provider': 'gmail'}
+2025-06-13 15:22:28,449 - INFO - Structure de la base de données mise à jour avec succès
+2025-06-13 15:22:28,449 - INFO - Base de données initialisée
+2025-06-13 15:22:28,450 - INFO - Configuration chargée: {'smtp_server': 'smtp.gmail.com', 'smtp_port': 587, 'email_sender': 'votre_email@gmail.com', 'email_password': '***masqué***', 'sender_name': 'Votre Newsletter', 'provider': 'gmail'}
+2025-06-13 15:23:01,300 - INFO - Début de l'envoi de la newsletter 15
+2025-06-13 15:23:01,301 - INFO - Début de l'envoi immédiat
+2025-06-13 15:23:21,794 - INFO - Début de l'envoi de la newsletter 15
+2025-06-13 15:23:21,795 - INFO - Début de l'envoi immédiat
+2025-06-13 15:23:21,797 - INFO - Nombre d'abonnés sélectionnés : 1
+2025-06-13 15:23:21,800 - INFO - Anciens envois supprimés
+2025-06-13 15:23:21,814 - INFO - Nouvelles entrées d'envoi créées
+2025-06-13 15:23:21,820 - INFO - Statut de la newsletter mis à jour en 'en_cours'
+2025-06-13 15:23:21,821 - INFO - Tentative de connexion au serveur SMTP
+2025-06-13 15:23:22,163 - INFO - Connexion SMTP réussie
+2025-06-13 15:23:22,717 - INFO - Email envoyé avec succès à rulmystic@gmail.com
+2025-06-13 15:23:22,733 - INFO - Résumé de l'envoi : 1 envoyés, 0 erreurs
+2025-06-13 15:23:22,734 - INFO - Statut mis à jour en 'envoye'
+2025-06-13 15:26:43,861 - INFO - C:\app_newsletter\newsletters\views.py changed, reloading.
+2025-06-13 15:26:43,872 - INFO - C:\app_newsletter\newsletters\views.py changed, reloading.
+2025-06-13 15:26:43,892 - INFO - C:\app_newsletter\newsletters\views.py changed, reloading.
+2025-06-13 15:26:44,759 - INFO - Structure de la base de données mise à jour avec succès
+2025-06-13 15:26:44,759 - INFO - Base de données initialisée
+2025-06-13 15:26:44,760 - INFO - Structure de la base de données mise à jour avec succès
+2025-06-13 15:26:44,760 - INFO - Configuration chargée: {'smtp_server': 'smtp.gmail.com', 'smtp_port': 587, 'email_sender': 'votre_email@gmail.com', 'email_password': '***masqué***', 'sender_name': 'Votre Newsletter', 'provider': 'gmail'}
+2025-06-13 15:26:44,760 - INFO - Base de données initialisée
+2025-06-13 15:26:44,760 - INFO - Configuration chargée: {'smtp_server': 'smtp.gmail.com', 'smtp_port': 587, 'email_sender': 'votre_email@gmail.com', 'email_password': '***masqué***', 'sender_name': 'Votre Newsletter', 'provider': 'gmail'}
+2025-06-13 15:26:44,768 - INFO - Structure de la base de données mise à jour avec succès
+2025-06-13 15:26:44,768 - INFO - Base de données initialisée
+2025-06-13 15:26:44,769 - INFO - Configuration chargée: {'smtp_server': 'smtp.gmail.com', 'smtp_port': 587, 'email_sender': 'votre_email@gmail.com', 'email_password': '***masqué***', 'sender_name': 'Votre Newsletter', 'provider': 'gmail'}
+2025-06-13 15:49:57,044 - INFO - Structure de la base de données mise à jour avec succès
+2025-06-13 15:49:57,045 - INFO - Base de données initialisée
+2025-06-13 15:49:57,045 - INFO - Configuration chargée: {'smtp_server': 'smtp.gmail.com', 'smtp_port': 587, 'email_sender': 'votre_email@gmail.com', 'email_password': '***masqué***', 'sender_name': 'Votre Newsletter', 'provider': 'gmail'}
+2025-06-13 15:52:13,562 - INFO - Début de l'envoi de la newsletter 16
+2025-06-13 15:52:13,566 - INFO - Début de l'envoi immédiat
+2025-06-13 15:52:18,744 - INFO - Début de l'envoi de la newsletter 16
+2025-06-13 15:52:18,744 - INFO - Début de l'envoi immédiat
+2025-06-13 15:52:18,751 - INFO - Nombre d'abonnés sélectionnés : 1
+2025-06-13 15:52:18,759 - INFO - Anciens envois supprimés
+2025-06-13 15:52:18,769 - INFO - Nouvelles entrées d'envoi créées
+2025-06-13 15:52:18,776 - INFO - Statut de la newsletter mis à jour en 'en_cours'
+2025-06-13 15:52:18,777 - INFO - Tentative de connexion au serveur SMTP
+2025-06-13 15:52:19,230 - INFO - Connexion SMTP réussie
+2025-06-13 15:52:19,992 - INFO - Email envoyé avec succès à rulmystic@gmail.com
+2025-06-13 15:52:20,013 - INFO - Résumé de l'envoi : 1 envoyés, 0 erreurs
+2025-06-13 15:52:20,014 - INFO - Statut mis à jour en 'envoye'
+2025-06-13 15:54:20,208 - INFO - C:\app_newsletter\newsletters\views.py changed, reloading.
+2025-06-13 15:54:20,220 - INFO - C:\app_newsletter\newsletters\views.py changed, reloading.
+2025-06-13 15:54:20,673 - INFO - C:\app_newsletter\newsletters\views.py changed, reloading.
+2025-06-13 15:54:21,123 - INFO - Structure de la base de données mise à jour avec succès
+2025-06-13 15:54:21,123 - INFO - Structure de la base de données mise à jour avec succès
+2025-06-13 15:54:21,124 - INFO - Base de données initialisée
+2025-06-13 15:54:21,124 - INFO - Base de données initialisée
+2025-06-13 15:54:21,124 - INFO - Configuration chargée: {'smtp_server': 'smtp.gmail.com', 'smtp_port': 587, 'email_sender': 'votre_email@gmail.com', 'email_password': '***masqué***', 'sender_name': 'Votre Newsletter', 'provider': 'gmail'}
+2025-06-13 15:54:21,125 - INFO - Configuration chargée: {'smtp_server': 'smtp.gmail.com', 'smtp_port': 587, 'email_sender': 'votre_email@gmail.com', 'email_password': '***masqué***', 'sender_name': 'Votre Newsletter', 'provider': 'gmail'}
+2025-06-13 15:54:21,561 - INFO - Structure de la base de données mise à jour avec succès
+2025-06-13 15:54:21,562 - INFO - Base de données initialisée
+2025-06-13 15:54:21,562 - INFO - Configuration chargée: {'smtp_server': 'smtp.gmail.com', 'smtp_port': 587, 'email_sender': 'votre_email@gmail.com', 'email_password': '***masqué***', 'sender_name': 'Votre Newsletter', 'provider': 'gmail'}
+2025-06-13 16:03:54,306 - INFO - Début de l'envoi de la newsletter 17
+2025-06-13 16:03:54,308 - INFO - Début de l'envoi immédiat
+2025-06-13 16:04:06,740 - INFO - Début de l'envoi de la newsletter 17
+2025-06-13 16:04:06,742 - INFO - Début de l'envoi immédiat
+2025-06-13 16:04:06,744 - INFO - Nombre d'abonnés sélectionnés : 1
+2025-06-13 16:04:06,748 - INFO - Anciens envois supprimés
+2025-06-13 16:04:06,759 - INFO - Nouvelles entrées d'envoi créées
+2025-06-13 16:04:06,765 - INFO - Statut de la newsletter mis à jour en 'en_cours'
+2025-06-13 16:04:06,765 - INFO - Tentative de connexion au serveur SMTP
+2025-06-13 16:04:07,104 - INFO - Connexion SMTP réussie
+2025-06-13 16:04:07,775 - INFO - Email envoyé avec succès à rulmystic@gmail.com
+2025-06-13 16:04:07,792 - INFO - Résumé de l'envoi : 1 envoyés, 0 erreurs
+2025-06-13 16:04:07,793 - INFO - Statut mis à jour en 'envoye'

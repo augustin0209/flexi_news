@@ -1,0 +1,478 @@
+Début de l'envoi de la newsletter 1
+Début de l'envoi de la newsletter 2
+Début de l'envoi de la newsletter 2
+Début de l'envoi immédiat
+Nombre d'abonnés actifs trouvés : 1
+Anciens envois supprimés
+Nouvelles entrées d'envoi créées
+Statut de la newsletter mis à jour en 'en_cours'
+Tentative de connexion au serveur SMTP
+Connexion SMTP réussie
+Début de l'envoi des emails
+Tentative d'envoi à rulmystic@gmail.com
+Email envoyé avec succès à rulmystic@gmail.com
+Fermeture de la connexion SMTP
+Résumé de l'envoi : 1 envoyés, 0 erreurs
+Statut mis à jour en 'envoye'
+Fichier lu avec succès en utilisant l'encodage: utf-8-sig
+Abonné importé: clara.morin94@testmail.com
+Abonné importé: leo.dubois13@demo.net
+Abonné importé: julie.martin88@exemple.org
+Abonné importé: thomas.lefevre77@mailninja.io
+Abonné importé: camille.perrin66@nullmail.org
+Abonné importé: maxime.robert42@testnow.co
+Abonné importé: alice.fontaine11@fakeinbox.org
+Abonné importé: hugo.bertrand22@maildrop.cc
+Abonné importé: emma.lambert39@inboxzero.io
+Abonné importé: nathan.renaud57@tempmail.dev
+Méthode GET détectée
+Méthode GET détectée
+Méthode POST détectée
+Formulaire créé avec les données: <QueryDict: {'csrfmiddlewaretoken': ['KuOqB6wmvLm5HclDepchUvnQ8ScKOViu5tFhdol5w0SMH4haRBN2VBd6b4GApUqu'], 'titre': ['titre'], 'objet': ['dgqrg'], 'contenu_text': ['serzefswsdf'], 'police': ['Arial']}>
+Formulaire valide
+Newsletter créée avec succès: 3
+Erreur lors de l'envoi à clara.morin94@testmail.com: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Basic Constraints of CA cert not marked critical (_ssl.c:1028)
+Erreur lors de l'envoi à leo.dubois13@demo.net: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Basic Constraints of CA cert not marked critical (_ssl.c:1028)
+Erreur lors de l'envoi à julie.martin88@exemple.org: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Basic Constraints of CA cert not marked critical (_ssl.c:1028)
+Erreur lors de l'envoi à camille.perrin66@nullmail.org: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Basic Constraints of CA cert not marked critical (_ssl.c:1028)
+Erreur lors de l'envoi à maxime.robert42@testnow.co: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Basic Constraints of CA cert not marked critical (_ssl.c:1028)
+Erreur lors de l'envoi à alice.fontaine11@fakeinbox.org: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Basic Constraints of CA cert not marked critical (_ssl.c:1028)
+Erreur lors de l'envoi à rulmystic@gmail.com: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Basic Constraints of CA cert not marked critical (_ssl.c:1028)
+Méthode GET détectée
+Méthode POST détectée
+Formulaire créé avec les données: <QueryDict: {'csrfmiddlewaretoken': ['qcTRpHnSvRJBA65eDLG1k5ob8i9cvblGLbKI1ZcBw6fiAY1LgXhMlberbuD26atG'], 'titre': ['titre'], 'objet': ['cvxcv'], 'contenu_text': ['scsqdcsqdc'], 'police': ['Arial']}>
+Formulaire valide
+Newsletter créée avec succès: 4
+Début de l'envoi de la newsletter 4
+Début de l'envoi immédiat
+Nombre d'abonnés actifs trouvés : 7
+Anciens envois supprimés
+Nouvelles entrées d'envoi créées
+Statut de la newsletter mis à jour en 'en_cours'
+Tentative de connexion au serveur SMTP
+Connexion SMTP réussie
+Début de l'envoi des emails
+Tentative d'envoi à clara.morin94@testmail.com
+Email envoyé avec succès à clara.morin94@testmail.com
+Tentative d'envoi à leo.dubois13@demo.net
+Email envoyé avec succès à leo.dubois13@demo.net
+Tentative d'envoi à julie.martin88@exemple.org
+Email envoyé avec succès à julie.martin88@exemple.org
+Tentative d'envoi à camille.perrin66@nullmail.org
+Email envoyé avec succès à camille.perrin66@nullmail.org
+Tentative d'envoi à maxime.robert42@testnow.co
+Email envoyé avec succès à maxime.robert42@testnow.co
+Tentative d'envoi à alice.fontaine11@fakeinbox.org
+Email envoyé avec succès à alice.fontaine11@fakeinbox.org
+Tentative d'envoi à rulmystic@gmail.com
+Email envoyé avec succès à rulmystic@gmail.com
+Fermeture de la connexion SMTP
+Résumé de l'envoi : 7 envoyés, 0 erreurs
+Statut mis à jour en 'envoye'
+Méthode GET détectée
+Méthode POST détectée
+Formulaire créé avec les données: <QueryDict: {'csrfmiddlewaretoken': ['yWWrTf9Hwhbmg48LOki9C64WF7W4mgd4TVNivxYqxwH3gW4irwTUDcUcIjqUXfl4'], 'titre': ['titre'], 'objet': ['cvxcv'], 'contenu_text': ['xvwxvxvwsfvs'], 'police': ['Arial']}>
+Formulaire valide
+Newsletter créée avec succès: 5
+Début de l'envoi de la newsletter 5
+Début de l'envoi immédiat
+Nombre d'abonnés actifs trouvés : 6
+Anciens envois supprimés
+Nouvelles entrées d'envoi créées
+Statut de la newsletter mis à jour en 'en_cours'
+Tentative de connexion au serveur SMTP
+Connexion SMTP réussie
+Début de l'envoi des emails
+Tentative d'envoi à clara.morin94@testmail.com
+Email envoyé avec succès à clara.morin94@testmail.com
+Tentative d'envoi à leo.dubois13@demo.net
+Email envoyé avec succès à leo.dubois13@demo.net
+Tentative d'envoi à julie.martin88@exemple.org
+Email envoyé avec succès à julie.martin88@exemple.org
+Tentative d'envoi à camille.perrin66@nullmail.org
+Email envoyé avec succès à camille.perrin66@nullmail.org
+Tentative d'envoi à maxime.robert42@testnow.co
+Email envoyé avec succès à maxime.robert42@testnow.co
+Tentative d'envoi à rulmystic@gmail.com
+Email envoyé avec succès à rulmystic@gmail.com
+Fermeture de la connexion SMTP
+Résumé de l'envoi : 6 envoyés, 0 erreurs
+Statut mis à jour en 'envoye'
+Fichier lu avec succès en utilisant l'encodage: utf-8-sig
+Abonné importé: clara.morin94@testmail.com
+Abonné importé: leo.dubois13@demo.net
+Abonné importé: julie.martin88@exemple.org
+Abonné importé: thomas.lefevre77@mailninja.io
+Abonné importé: camille.perrin66@nullmail.org
+Abonné importé: maxime.robert42@testnow.co
+Abonné importé: alice.fontaine11@fakeinbox.org
+Abonné importé: hugo.bertrand22@maildrop.cc
+Abonné importé: emma.lambert39@inboxzero.io
+Abonné importé: nathan.renaud57@tempmail.dev
+Méthode GET détectée
+Méthode POST détectée
+Formulaire créé avec les données: <QueryDict: {'csrfmiddlewaretoken': ['s6dGaVmCsE4g4S7fAc3SaMzkDXyRWtKhN54xMdbltTAX4K3MdoEDbSpAG92HxsSh'], 'titre': ['titre'], 'objet': ['dgqrg'], 'contenu_text': ['dsvsdvwdsvsdv'], 'police': ['Arial']}>
+Formulaire valide
+Newsletter créée avec succès: 6
+Début de l'envoi de la newsletter 6
+Début de l'envoi immédiat
+Nombre d'abonnés actifs trouvés : 11
+Anciens envois supprimés
+Nouvelles entrées d'envoi créées
+Statut de la newsletter mis à jour en 'en_cours'
+Tentative de connexion au serveur SMTP
+Connexion SMTP réussie
+Début de l'envoi des emails
+Tentative d'envoi à rulmystic@gmail.com
+Email envoyé avec succès à rulmystic@gmail.com
+Tentative d'envoi à clara.morin94@testmail.com
+Email envoyé avec succès à clara.morin94@testmail.com
+Tentative d'envoi à leo.dubois13@demo.net
+Email envoyé avec succès à leo.dubois13@demo.net
+Tentative d'envoi à julie.martin88@exemple.org
+Email envoyé avec succès à julie.martin88@exemple.org
+Tentative d'envoi à thomas.lefevre77@mailninja.io
+Email envoyé avec succès à thomas.lefevre77@mailninja.io
+Tentative d'envoi à camille.perrin66@nullmail.org
+Email envoyé avec succès à camille.perrin66@nullmail.org
+Tentative d'envoi à maxime.robert42@testnow.co
+Email envoyé avec succès à maxime.robert42@testnow.co
+Tentative d'envoi à alice.fontaine11@fakeinbox.org
+Email envoyé avec succès à alice.fontaine11@fakeinbox.org
+Tentative d'envoi à hugo.bertrand22@maildrop.cc
+Email envoyé avec succès à hugo.bertrand22@maildrop.cc
+Tentative d'envoi à emma.lambert39@inboxzero.io
+Email envoyé avec succès à emma.lambert39@inboxzero.io
+Tentative d'envoi à nathan.renaud57@tempmail.dev
+Email envoyé avec succès à nathan.renaud57@tempmail.dev
+Fermeture de la connexion SMTP
+Résumé de l'envoi : 11 envoyés, 0 erreurs
+Statut mis à jour en 'envoye'
+Méthode GET détectée
+Méthode POST détectée
+Formulaire créé avec les données: <QueryDict: {'csrfmiddlewaretoken': ['E9mfqlyop3SepiYKPVFK5o3FEB9BZk7DZ8d62Dn7qioVpaUhs7gv6uTVHNDrAjfD'], 'titre': ['titre'], 'objet': ['fdevfdsf'], 'contenu_text': ['fvSvdwcQScesfzqer zr ZEze:\r\n\r\n\r\naedefsevfd'], 'police': ['Arial']}>
+Formulaire valide
+Newsletter créée avec succès: 7
+Début de l'envoi de la newsletter 7
+Envoi de la newsletter planifiée 7
+Envoi de la newsletter planifiée 7
+Erreur lors de l'envoi à rulmystic@gmail.com: list index out of range
+Erreur lors de l'envoi à clara.morin94@testmail.com: list index out of range
+Erreur lors de l'envoi à leo.dubois13@demo.net: list index out of range
+Erreur lors de l'envoi à julie.martin88@exemple.org: list index out of range
+Erreur lors de l'envoi à thomas.lefevre77@mailninja.io: list index out of range
+Erreur lors de l'envoi à camille.perrin66@nullmail.org: list index out of range
+Erreur lors de l'envoi à maxime.robert42@testnow.co: list index out of range
+Erreur lors de l'envoi à alice.fontaine11@fakeinbox.org: list index out of range
+Erreur lors de l'envoi à hugo.bertrand22@maildrop.cc: list index out of range
+Erreur lors de l'envoi à emma.lambert39@inboxzero.io: list index out of range
+Erreur lors de l'envoi à nathan.renaud57@tempmail.dev: list index out of range
+Erreur lors de l'envoi à rulmystic@gmail.com: list index out of range
+Erreur lors de l'envoi de la newsletter 7: UNIQUE constraint failed: newsletters_envoi.newsletter_id, newsletters_envoi.subscriber_id
+Newsletter 7 envoyée : 0 succès, 11 erreurs
+Début de l'envoi de la newsletter 7
+Début de l'envoi immédiat
+Nombre d'abonnés actifs trouvés : 11
+Anciens envois supprimés
+Nouvelles entrées d'envoi créées
+Statut de la newsletter mis à jour en 'en_cours'
+Tentative de connexion au serveur SMTP
+Connexion SMTP réussie
+Début de l'envoi des emails
+Tentative d'envoi à rulmystic@gmail.com
+Début de l'envoi de la newsletter 7
+Début de l'envoi immédiat
+Nombre d'abonnés actifs trouvés : 11
+Anciens envois supprimés
+Nouvelles entrées d'envoi créées
+Statut de la newsletter mis à jour en 'en_cours'
+Tentative de connexion au serveur SMTP
+Erreur générale lors de l'envoi : UNIQUE constraint failed: newsletters_envoi.newsletter_id, newsletters_envoi.subscriber_id
+Connexion SMTP réussie
+Début de l'envoi des emails
+Tentative d'envoi à rulmystic@gmail.com
+Début de l'envoi de la newsletter 7
+Début de l'envoi immédiat
+Nombre d'abonnés actifs trouvés : 11
+Anciens envois supprimés
+Nouvelles entrées d'envoi créées
+Statut de la newsletter mis à jour en 'en_cours'
+Tentative de connexion au serveur SMTP
+Erreur générale lors de l'envoi : UNIQUE constraint failed: newsletters_envoi.newsletter_id, newsletters_envoi.subscriber_id
+Début de l'envoi de la newsletter 7
+Début de l'envoi immédiat
+Nombre d'abonnés actifs trouvés : 11
+Anciens envois supprimés
+Nouvelles entrées d'envoi créées
+Statut de la newsletter mis à jour en 'en_cours'
+Tentative de connexion au serveur SMTP
+Connexion SMTP réussie
+Début de l'envoi des emails
+Tentative d'envoi à rulmystic@gmail.com
+Connexion SMTP réussie
+Début de l'envoi des emails
+Tentative d'envoi à rulmystic@gmail.com
+Email envoyé avec succès à rulmystic@gmail.com
+Tentative d'envoi à clara.morin94@testmail.com
+Email envoyé avec succès à rulmystic@gmail.com
+Tentative d'envoi à clara.morin94@testmail.com
+Email envoyé avec succès à clara.morin94@testmail.com
+Tentative d'envoi à leo.dubois13@demo.net
+Email envoyé avec succès à clara.morin94@testmail.com
+Tentative d'envoi à leo.dubois13@demo.net
+Email envoyé avec succès à leo.dubois13@demo.net
+Tentative d'envoi à julie.martin88@exemple.org
+Email envoyé avec succès à leo.dubois13@demo.net
+Tentative d'envoi à julie.martin88@exemple.org
+Email envoyé avec succès à julie.martin88@exemple.org
+Tentative d'envoi à thomas.lefevre77@mailninja.io
+Email envoyé avec succès à julie.martin88@exemple.org
+Tentative d'envoi à thomas.lefevre77@mailninja.io
+Email envoyé avec succès à thomas.lefevre77@mailninja.io
+Tentative d'envoi à camille.perrin66@nullmail.org
+Email envoyé avec succès à thomas.lefevre77@mailninja.io
+Tentative d'envoi à camille.perrin66@nullmail.org
+Email envoyé avec succès à camille.perrin66@nullmail.org
+Tentative d'envoi à maxime.robert42@testnow.co
+Email envoyé avec succès à camille.perrin66@nullmail.org
+Tentative d'envoi à maxime.robert42@testnow.co
+Email envoyé avec succès à maxime.robert42@testnow.co
+Tentative d'envoi à alice.fontaine11@fakeinbox.org
+Email envoyé avec succès à maxime.robert42@testnow.co
+Tentative d'envoi à alice.fontaine11@fakeinbox.org
+Email envoyé avec succès à alice.fontaine11@fakeinbox.org
+Tentative d'envoi à hugo.bertrand22@maildrop.cc
+Email envoyé avec succès à alice.fontaine11@fakeinbox.org
+Tentative d'envoi à hugo.bertrand22@maildrop.cc
+Email envoyé avec succès à hugo.bertrand22@maildrop.cc
+Tentative d'envoi à emma.lambert39@inboxzero.io
+Email envoyé avec succès à emma.lambert39@inboxzero.io
+Tentative d'envoi à nathan.renaud57@tempmail.dev
+Email envoyé avec succès à hugo.bertrand22@maildrop.cc
+Tentative d'envoi à emma.lambert39@inboxzero.io
+Email envoyé avec succès à nathan.renaud57@tempmail.dev
+Fermeture de la connexion SMTP
+Résumé de l'envoi : 11 envoyés, 0 erreurs
+Statut mis à jour en 'envoye'
+Email envoyé avec succès à emma.lambert39@inboxzero.io
+Tentative d'envoi à nathan.renaud57@tempmail.dev
+Email envoyé avec succès à nathan.renaud57@tempmail.dev
+Fermeture de la connexion SMTP
+Résumé de l'envoi : 11 envoyés, 0 erreurs
+Statut mis à jour en 'envoye'
+Méthode GET détectée
+Méthode POST détectée
+Formulaire créé avec les données: <QueryDict: {'csrfmiddlewaretoken': ['xueagIA3VN6uCtSTJeAzVTN8qRzfaGzqSt51S0pMW2CbClOqmqbkWZDot335LFHq'], 'titre': ['titre'], 'objet': ['fdevfdsf'], 'contenu_text': ['bggbhgbh'], 'police': ['Arial']}>
+Formulaire valide
+Newsletter créée avec succès: 8
+Début de l'envoi de la newsletter 8
+Envoi de la newsletter planifiée 8
+Envoi de la newsletter planifiée 8
+Erreur lors de l'envoi à rulmystic@gmail.com: list index out of range
+Erreur lors de l'envoi à rulmystic@gmail.com: list index out of range
+Erreur lors de l'envoi à clara.morin94@testmail.com: list index out of range
+Erreur lors de l'envoi de la newsletter 8: UNIQUE constraint failed: newsletters_envoi.newsletter_id, newsletters_envoi.subscriber_id
+Erreur lors de l'envoi à leo.dubois13@demo.net: list index out of range
+Erreur lors de l'envoi à julie.martin88@exemple.org: list index out of range
+Erreur lors de l'envoi à thomas.lefevre77@mailninja.io: list index out of range
+Erreur lors de l'envoi à camille.perrin66@nullmail.org: list index out of range
+Erreur lors de l'envoi à maxime.robert42@testnow.co: list index out of range
+Erreur lors de l'envoi à alice.fontaine11@fakeinbox.org: list index out of range
+Erreur lors de l'envoi à hugo.bertrand22@maildrop.cc: list index out of range
+Erreur lors de l'envoi à emma.lambert39@inboxzero.io: list index out of range
+Erreur lors de l'envoi à nathan.renaud57@tempmail.dev: list index out of range
+Newsletter 8 envoyée : 0 succès, 11 erreurs
+Méthode GET détectée
+Méthode POST détectée
+Formulaire créé avec les données: <QueryDict: {'csrfmiddlewaretoken': ['5Wh0IOplJor9X8FlVSFcrBK703dHLV4kqV8Rk6e4KDXQX0BSy4gXsHAn3fHxmUck'], 'titre': ['vvdsvs'], 'objet': ['dgqrg'], 'contenu_text': ['hsvwdvcDfsqzrfqer'], 'police': ['Arial']}>
+Formulaire valide
+Newsletter créée avec succès: 9
+Début de l'envoi de la newsletter 9
+Envoi de la newsletter planifiée 9
+Connexion SMTP réussie
+Erreur lors de l'envoi à rulmystic@gmail.com: list index out of range
+Erreur lors de l'envoi à clara.morin94@testmail.com: list index out of range
+Erreur lors de l'envoi à leo.dubois13@demo.net: list index out of range
+Erreur lors de l'envoi à julie.martin88@exemple.org: list index out of range
+Erreur lors de l'envoi à thomas.lefevre77@mailninja.io: list index out of range
+Erreur lors de l'envoi à camille.perrin66@nullmail.org: list index out of range
+Erreur lors de l'envoi à maxime.robert42@testnow.co: list index out of range
+Erreur lors de l'envoi à alice.fontaine11@fakeinbox.org: list index out of range
+Erreur lors de l'envoi à hugo.bertrand22@maildrop.cc: list index out of range
+Erreur lors de l'envoi à emma.lambert39@inboxzero.io: list index out of range
+Erreur lors de l'envoi à nathan.renaud57@tempmail.dev: list index out of range
+Newsletter 9 envoyée : 0 succès, 11 erreurs
+Méthode GET détectée
+Méthode POST détectée
+Formulaire créé avec les données: <QueryDict: {'csrfmiddlewaretoken': ['sTOtGhu8Jicq2Vz9swnLakk0WWQ7ccjrNSFkizjRKxI72NvG5IYwbqagZ8kXNbrr'], 'titre': ['vvdsvs'], 'objet': ['dgqrg'], 'contenu_text': ['evSdvfv'], 'police': ['Arial']}>
+Formulaire valide
+Newsletter créée avec succès: 10
+Début de l'envoi de la newsletter 10
+Envoi de la newsletter planifiée 10
+Connexion SMTP réussie
+Email envoyé avec succès à rulmystic@gmail.com
+Email envoyé avec succès à clara.morin94@testmail.com
+Email envoyé avec succès à leo.dubois13@demo.net
+Email envoyé avec succès à julie.martin88@exemple.org
+Email envoyé avec succès à thomas.lefevre77@mailninja.io
+Email envoyé avec succès à camille.perrin66@nullmail.org
+Email envoyé avec succès à maxime.robert42@testnow.co
+Email envoyé avec succès à alice.fontaine11@fakeinbox.org
+Email envoyé avec succès à hugo.bertrand22@maildrop.cc
+Email envoyé avec succès à emma.lambert39@inboxzero.io
+Email envoyé avec succès à nathan.renaud57@tempmail.dev
+Newsletter 10 envoyée : 11 succès, 0 erreurs
+Méthode GET détectée
+Méthode POST détectée
+Formulaire créé avec les données: <QueryDict: {'csrfmiddlewaretoken': ['RUf36dfndGhVdowMGHjxYHCPlHzGgtSpcT6UIv46eVNCdgsjjTUiZNs5oT3wRs0p'], 'titre': ['lelelel'], 'objet': ['ecqdscsqdc'], 'contenu_text': ['fbfdqvbfdvfv'], 'police': ['Arial']}>
+Formulaire valide
+Newsletter créée avec succès: 11
+Début de l'envoi de la newsletter 11
+Envoi de la newsletter planifiée 11
+Connexion SMTP réussie
+Email envoyé avec succès à rulmystic@gmail.com
+Email envoyé avec succès à clara.morin94@testmail.com
+Email envoyé avec succès à leo.dubois13@demo.net
+Email envoyé avec succès à julie.martin88@exemple.org
+Email envoyé avec succès à thomas.lefevre77@mailninja.io
+Email envoyé avec succès à camille.perrin66@nullmail.org
+Email envoyé avec succès à maxime.robert42@testnow.co
+Email envoyé avec succès à alice.fontaine11@fakeinbox.org
+Email envoyé avec succès à hugo.bertrand22@maildrop.cc
+Email envoyé avec succès à emma.lambert39@inboxzero.io
+Email envoyé avec succès à nathan.renaud57@tempmail.dev
+Newsletter 11 envoyée : 11 succès, 0 erreurs
+Méthode GET détectée
+Méthode GET détectée
+Méthode GET détectée
+Méthode POST détectée
+Formulaire créé avec les données: <QueryDict: {'csrfmiddlewaretoken': ['H4a8nbTVJKZwFGzMlB1uyunCNFH7ncAmMILCjDfqK92zFVqtLli1HkILD3btWkEY'], 'titre': ['titre'], 'objet': ['kkk'], 'contenu_text': ['khghj,hgj,'], 'police': ['Times new roman']}>
+Formulaire valide
+Newsletter créée avec succès: 12
+Début de l'envoi de la newsletter 12
+Début de l'envoi immédiat
+Nombre d'abonnés actifs trouvés : 11
+Anciens envois supprimés
+Nouvelles entrées d'envoi créées
+Statut de la newsletter mis à jour en 'en_cours'
+Tentative de connexion au serveur SMTP
+Connexion SMTP réussie
+Email envoyé avec succès à rulmystic@gmail.com
+Email envoyé avec succès à clara.morin94@testmail.com
+Email envoyé avec succès à leo.dubois13@demo.net
+Email envoyé avec succès à julie.martin88@exemple.org
+Email envoyé avec succès à thomas.lefevre77@mailninja.io
+Email envoyé avec succès à camille.perrin66@nullmail.org
+Email envoyé avec succès à maxime.robert42@testnow.co
+Email envoyé avec succès à alice.fontaine11@fakeinbox.org
+Email envoyé avec succès à hugo.bertrand22@maildrop.cc
+Email envoyé avec succès à emma.lambert39@inboxzero.io
+Email envoyé avec succès à nathan.renaud57@tempmail.dev
+Résumé de l'envoi : 11 envoyés, 0 erreurs
+Statut mis à jour en 'envoye'
+Méthode GET détectée
+Méthode POST détectée
+Formulaire créé avec les données: <QueryDict: {'csrfmiddlewaretoken': ['VgoiZ9QSW3LGSV9hK0UKYMZSWZ72rhrk0UZMVBcnXsOJSa0YaKbh7Ck1MnBo0pvW'], 'titre': ['cezsc'], 'objet': ['efzde'], 'contenu_text': ['**edezdazedaezdéezde**\r\n\r\n\r\nddedededed\r\ndedzdza\r\ndzed\r\nedz\r\ned\r\n\r\n*ezdedez*'], 'police': ['Arial']}>
+Formulaire valide
+Newsletter créée avec succès: 13
+Début de l'envoi de la newsletter 13
+Début de l'envoi immédiat
+Nombre d'abonnés actifs trouvés : 11
+Anciens envois supprimés
+Nouvelles entrées d'envoi créées
+Statut de la newsletter mis à jour en 'en_cours'
+Tentative de connexion au serveur SMTP
+Connexion SMTP réussie
+Email envoyé avec succès à rulmystic@gmail.com
+Email envoyé avec succès à clara.morin94@testmail.com
+Email envoyé avec succès à leo.dubois13@demo.net
+Email envoyé avec succès à julie.martin88@exemple.org
+Email envoyé avec succès à thomas.lefevre77@mailninja.io
+Email envoyé avec succès à camille.perrin66@nullmail.org
+Email envoyé avec succès à maxime.robert42@testnow.co
+Email envoyé avec succès à alice.fontaine11@fakeinbox.org
+Email envoyé avec succès à hugo.bertrand22@maildrop.cc
+Email envoyé avec succès à emma.lambert39@inboxzero.io
+Email envoyé avec succès à nathan.renaud57@tempmail.dev
+Résumé de l'envoi : 11 envoyés, 0 erreurs
+Statut mis à jour en 'envoye'
+Méthode GET détectée
+Méthode GET détectée
+Méthode POST détectée
+Formulaire créé avec les données: <QueryDict: {'csrfmiddlewaretoken': ['NLUnVXO1KVFtp7Pt6zdUYF8pk84AVbf2SpvRRpawLkIwpmGawjur7vtyawyWujjE'], 'titre': ['eeff'], 'objet': ['efrfze'], 'contenu_text': ['ezrfezrf'], 'police': ['Times new roman']}>
+Formulaire valide
+Newsletter créée avec succès: 14
+Début de l'envoi de la newsletter 14
+Envoi de la newsletter planifiée 14
+Envoi de la newsletter planifiée 14
+Connexion SMTP réussie
+Connexion SMTP réussie
+Email envoyé avec succès à rulmystic@gmail.com
+Email envoyé avec succès à clara.morin94@testmail.com
+Email envoyé avec succès à leo.dubois13@demo.net
+Email envoyé avec succès à julie.martin88@exemple.org
+Email envoyé avec succès à thomas.lefevre77@mailninja.io
+Email envoyé avec succès à camille.perrin66@nullmail.org
+Email envoyé avec succès à maxime.robert42@testnow.co
+Email envoyé avec succès à alice.fontaine11@fakeinbox.org
+Email envoyé avec succès à hugo.bertrand22@maildrop.cc
+Email envoyé avec succès à emma.lambert39@inboxzero.io
+Email envoyé avec succès à nathan.renaud57@tempmail.dev
+Erreur lors de l'envoi en masse: UNIQUE constraint failed: newsletters_envoi.newsletter_id, newsletters_envoi.subscriber_id
+Erreur lors de l'envoi de la newsletter 14: UNIQUE constraint failed: newsletters_envoi.newsletter_id, newsletters_envoi.subscriber_id
+Newsletter 14 envoyée : 11 succès, 0 erreurs
+Erreur dans le thread de vérification : no such column: newsletters_newsletter.couleur_texte
+Erreur dans le thread de vérification : no such column: newsletters_newsletter.couleur_texte
+Erreur dans le thread de vérification : no such column: newsletters_newsletter.couleur_texte
+Erreur dans le thread de vérification : no such column: newsletters_newsletter.couleur_texte
+Erreur dans le thread de vérification : no such column: newsletters_newsletter.couleur_texte
+Erreur dans le thread de vérification : no such column: newsletters_newsletter.couleur_texte
+Erreur dans le thread de vérification : no such column: newsletters_newsletter.couleur_texte
+Erreur dans le thread de vérification : no such column: newsletters_newsletter.couleur_texte
+Erreur dans le thread de vérification : no such column: newsletters_newsletter.couleur_texte
+Erreur dans le thread de vérification : no such column: newsletters_newsletter.couleur_texte
+Début de l'envoi de la newsletter 15
+Début de l'envoi immédiat
+Début de l'envoi de la newsletter 15
+Début de l'envoi immédiat
+Début de l'envoi de la newsletter 15
+Début de l'envoi immédiat
+Début de l'envoi de la newsletter 15
+Début de l'envoi immédiat
+Début de l'envoi de la newsletter 15
+Début de l'envoi immédiat
+Nombre d'abonnés sélectionnés : 1
+Anciens envois supprimés
+Nouvelles entrées d'envoi créées
+Statut de la newsletter mis à jour en 'en_cours'
+Tentative de connexion au serveur SMTP
+Connexion SMTP réussie
+Email envoyé avec succès à rulmystic@gmail.com
+Résumé de l'envoi : 1 envoyés, 0 erreurs
+Statut mis à jour en 'envoye'
+Début de l'envoi de la newsletter 16
+Début de l'envoi immédiat
+Début de l'envoi de la newsletter 16
+Début de l'envoi immédiat
+Nombre d'abonnés sélectionnés : 1
+Anciens envois supprimés
+Nouvelles entrées d'envoi créées
+Statut de la newsletter mis à jour en 'en_cours'
+Tentative de connexion au serveur SMTP
+Connexion SMTP réussie
+Email envoyé avec succès à rulmystic@gmail.com
+Résumé de l'envoi : 1 envoyés, 0 erreurs
+Statut mis à jour en 'envoye'
+Début de l'envoi de la newsletter 17
+Début de l'envoi immédiat
+Début de l'envoi de la newsletter 17
+Début de l'envoi immédiat
+Nombre d'abonnés sélectionnés : 1
+Anciens envois supprimés
+Nouvelles entrées d'envoi créées
+Statut de la newsletter mis à jour en 'en_cours'
+Tentative de connexion au serveur SMTP
+Connexion SMTP réussie
+Email envoyé avec succès à rulmystic@gmail.com
+Résumé de l'envoi : 1 envoyés, 0 erreurs
+Statut mis à jour en 'envoye'
