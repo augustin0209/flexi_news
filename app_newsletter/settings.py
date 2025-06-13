@@ -9,12 +9,14 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-d(%6$o8_j%c&2m1w#d+6d)2&g-t@)8$k=d%y!9@r!q*2b!v$0'
+SECRET_KEY = os.environ.get('SECRET_KEY', 'une-cle-de-secours-pour-le-dev-local') # À remplacer en production
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = os.environ.get('DEBUG', 'False') == 'True' # Gère DEBUG via ENV VAR
 
-ALLOWED_HOSTS = ['*'] # Permet toutes les adresses pour le développement. À restreindre en production.
+ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS', '').split(',')
+if '' in ALLOWED_HOSTS:
+    ALLOWED_HOSTS.remove('')
 
 
 # Application definition
@@ -65,8 +67,12 @@ WSGI_APPLICATION = 'app_newsletter.wsgi.application' # Assurez-vous que c'est le
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': os.environ.get('DB_NAME'),
+        'USER': os.environ.get('DB_USER'),
+        'HOST': os.environ.get('DB_HOST'),
+        'PORT': os.environ.get('DB_PORT'),
+        'PASSWORD': os.environ.get('DB_PASSWORD'),
     }
 }
 
@@ -119,19 +125,19 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles') # Où collectstatic va copie
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-# Configuration des newsletters
+# Configuration des newsletters (récupérées des variables d'environnement)
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_PORT = 587
-EMAIL_USE_TLS = True
-EMAIL_HOST_USER = 'contact.flexipartner@gmail.com'  # Votre email Gmail
-EMAIL_HOST_PASSWORD = 'rlme lwvy prvf usim'  # Votre mot de passe d'application Gmail
+EMAIL_HOST = os.environ.get('EMAIL_HOST', 'smtp.gmail.com')
+EMAIL_PORT = int(os.environ.get('EMAIL_PORT', 587))
+EMAIL_USE_TLS = os.environ.get('EMAIL_USE_TLS', 'True') == 'True'
+EMAIL_HOST_USER = os.environ.get('EMAIL_HOST_USER')
+EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASSWORD')
 
 # Adresse email par défaut pour le CCI (BCC)
-DEFAULT_BCC_EMAIL = 'mohamed.sayeh@flexipartner.fr' # Remplacez par l'adresse souhaitée
+DEFAULT_BCC_EMAIL = os.environ.get('DEFAULT_BCC_EMAIL', None)
 
 # Police par défaut pour les newsletters
-DEFAULT_FONT = 'Arial'
+DEFAULT_FONT = os.environ.get('DEFAULT_FONT', 'Arial')
 
 # Redirection après connexion
 LOGIN_REDIRECT_URL = '/'

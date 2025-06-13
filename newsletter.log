@@ -920,3 +920,23 @@ TypeError: newsletter_delete() got an unexpected keyword argument 'pk'
 2025-06-13 16:04:07,775 - INFO - Email envoyé avec succès à rulmystic@gmail.com
 2025-06-13 16:04:07,792 - INFO - Résumé de l'envoi : 1 envoyés, 0 erreurs
 2025-06-13 16:04:07,793 - INFO - Statut mis à jour en 'envoye'
+2025-06-13 17:25:13,034 - INFO - C:\app_newsletter\newsletters\urls.py changed, reloading.
+2025-06-13 17:25:13,029 - INFO - C:\app_newsletter\newsletters\urls.py changed, reloading.
+2025-06-13 17:25:13,054 - INFO - C:\app_newsletter\newsletters\urls.py changed, reloading.
+2025-06-13 17:25:14,713 - INFO - Structure de la base de données mise à jour avec succès
+2025-06-13 17:25:14,713 - INFO - Structure de la base de données mise à jour avec succès
+2025-06-13 17:25:14,714 - INFO - Base de données initialisée
+2025-06-13 17:25:14,714 - INFO - Base de données initialisée
+2025-06-13 17:25:14,714 - INFO - Base de données initialisée
+2025-06-13 17:25:14,715 - INFO - Configuration chargée: {'smtp_server': 'smtp.gmail.com', 'smtp_port': 587, 'email_sender': 'votre_email@gmail.com', 'email_password': '***masqué***', 'sender_name': 'Votre Newsletter', 'provider': 'gmail'}
+2025-06-13 17:25:14,715 - INFO - Configuration chargée: {'smtp_server': 'smtp.gmail.com', 'smtp_port': 587, 'email_sender': 'votre_email@gmail.com', 'email_password': '***masqué***', 'sender_name': 'Votre Newsletter', 'provider': 'gmail'}
+2025-06-13 17:25:14,716 - INFO - Configuration chargée: {'smtp_server': 'smtp.gmail.com', 'smtp_port': 587, 'email_sender': 'votre_email@gmail.com', 'email_password': '***masqué***', 'sender_name': 'Votre Newsletter', 'provider': 'gmail'}
+2025-06-13 17:50:39,745 - ERROR - Internal Server Error: /newsletters/17/
+Traceback (most recent call last):
+  File "C:\app_newsletter\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\app_newsletter\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\app_newsletter\venv\Lib\site-packages\django\contrib\auth\decorators.py", line 59, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+TypeError: newsletter_detail() got an unexpected keyword argument 'newsletter_id'

@@ -1,0 +1,63 @@
+services:
+      - type: web
+        name: your-newsletter-app
+        env: python
+        buildCommand: "pip install -r requirements.txt"
+        startCommand: "gunicorn app_newsletter.wsgi:application" # Remplacez 'app_newsletter' par le nom de votre dossier projet principal si différent
+        envVars:
+          - key: DATABASE_URL
+            fromDatabase:
+              name: newsletter_db # Nom de la base de données Render que nous allons créer
+              property: connectionString
+          - key: SECRET_KEY
+            generateValue: true
+          - key: WEB_CONCURRENCY
+            value: 4 # Nombre de workers Gunicorn (ajustez selon la taille de votre instance)
+          - key: DEBUG
+            value: "False"
+          - key: ALLOWED_HOSTS
+            value: "your-newsletter-app.onrender.com,your-custom-domain.com" # Remplacez par le nom de votre service Render et vos domaines
+          - key: EMAIL_HOST_USER
+            value: "votre_email_expediteur@gmail.com" # Votre email expéditeur
+          - key: EMAIL_HOST_PASSWORD
+            value: "votre_mot_de_passe_app" # Votre mot de passe d'application Gmail
+          - key: DEFAULT_BCC_EMAIL
+            value: "votre_adresse_cci_par_defaut@example.com" # L'adresse CCI par défaut
+          - key: EMAIL_HOST
+            value: "smtp.gmail.com"
+          - key: EMAIL_PORT
+            value: "587"
+          - key: EMAIL_USE_TLS
+            value: "True"
+        numInstances: 1 # Nombre d'instances de votre service web
+
+      - type: worker # Pour les envois planifiés (scheduler)
+        name: newsletter-scheduler
+        env: python
+        buildCommand: "pip install -r requirements.txt"
+        startCommand: "python manage.py run_scheduler" # Nous allons créer cette commande
+        envVars:
+          - key: DATABASE_URL
+            fromDatabase:
+              name: newsletter_db
+              property: connectionString
+          - key: SECRET_KEY
+            generateValue: true # Pour la sécurité du worker
+          - key: EMAIL_HOST_USER
+            value: "votre_email_expediteur@gmail.com"
+          - key: EMAIL_HOST_PASSWORD
+            value: "votre_mot_de_passe_app"
+          - key: DEFAULT_BCC_EMAIL
+            value: "votre_adresse_cci_par_defaut@example.com"
+          - key: EMAIL_HOST
+            value: "smtp.gmail.com"
+          - key: EMAIL_PORT
+            value: "587"
+          - key: EMAIL_USE_TLS
+            value: "True"
+        numInstances: 1
+        healthCheckPath: /
+
+    databases:
+      - name: newsletter_db
+        plan: free # Ou un plan payant pour la production
