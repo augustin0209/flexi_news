@@ -1,20 +1,18 @@
 services:
       - type: web
-        name: your-newsletter-app
+        name: newsletter-app
         env: python
-        buildCommand: "pip install -r requirements.txt"
-        startCommand: "gunicorn app_newsletter.wsgi:application" # Remplacez 'app_newsletter' par le nom de votre dossier projet principal si différent
+        buildCommand: pip install -r requirements.txt
+        startCommand: gunicorn newsletter_project.wsgi:application
         envVars:
-          - key: DATABASE_URL
-            fromDatabase:
-              name: newsletter_db # Nom de la base de données Render que nous allons créer
-              property: connectionString
+          - key: PYTHON_VERSION
+            value: 3.11.0
           - key: SECRET_KEY
             generateValue: true
           - key: WEB_CONCURRENCY
-            value: 4 # Nombre de workers Gunicorn (ajustez selon la taille de votre instance)
+            value: 4
           - key: DEBUG
-            value: "False"
+            value: false
           - key: ALLOWED_HOSTS
             value: "your-newsletter-app.onrender.com,your-custom-domain.com" # Remplacez par le nom de votre service Render et vos domaines
           - key: EMAIL_HOST_USER
@@ -34,13 +32,11 @@ services:
       - type: worker # Pour les envois planifiés (scheduler)
         name: newsletter-scheduler
         env: python
-        buildCommand: "pip install -r requirements.txt"
-        startCommand: "python manage.py run_scheduler" # Nous allons créer cette commande
+        buildCommand: pip install -r requirements.txt
+        startCommand: python manage.py run_scheduler
         envVars:
-          - key: DATABASE_URL
-            fromDatabase:
-              name: newsletter_db
-              property: connectionString
+          - key: PYTHON_VERSION
+            value: 3.11.0
           - key: SECRET_KEY
             generateValue: true # Pour la sécurité du worker
           - key: EMAIL_HOST_USER
@@ -59,5 +55,6 @@ services:
         healthCheckPath: /
 
     databases:
-      - name: newsletter_db
-        plan: free # Ou un plan payant pour la production
+      - name: newsletter-db
+        databaseName: newsletter
+        user: newsletter_user
