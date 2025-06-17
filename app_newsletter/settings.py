@@ -1,6 +1,6 @@
 import os
 from pathlib import Path
-
+import dj_database_url
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -20,6 +20,20 @@ if '' in ALLOWED_HOSTS:
 
 
 # Application definition
+
+DATABASES = {
+    'default': dj_database_url.config(conn_max_age=600, ssl_require=True)
+}
+
+# Debug depuis variable d'environnement (False par défaut)
+DEBUG = os.getenv('DEBUG', 'False') == 'True'
+
+# Autorise Railway à servir le site (à restreindre plus tard)
+ALLOWED_HOSTS = ['*']
+
+# Static files for production
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+
 
 INSTALLED_APPS = [
     'django.contrib.admin',
